@@ -143,7 +143,8 @@ const KOREA_DATA = {
       summary: "Nach 1953 besaß Südkorea fast keine Industrie, Hunger und unter 3 % eigene Energieressourcen. Wie gelang der Start?",
       image: "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1000&q=80",
       imageCaption: "Traditionelle Strukturen vor der rasanten Industrialisierung",
-      youtubeId: "V5d3vR5YgWk",
+      youtubeId: "Yzj5eygWcvY",
+      videoTitle: "Südkoreas Aufstieg: Wie aus Trümmern ein Wirtschaftswunder wurde (bwFutureTV)",
       keyPoints: [
         {
           title: "Das Nordkorea-Paradoxon nach 1953",
@@ -177,7 +178,8 @@ const KOREA_DATA = {
       summary: "Der Staat plante die Industrialisierung in 7 Fünfjahresplänen und züchtete Weltkonzerne wie Samsung und Hyundai.",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80",
       imageCaption: "Schwerindustrie, Werften und Halbleiterproduktion",
-      youtubeId: "j6PbonHbbQ0",
+      youtubeId: "nDYAXr2mkcY",
+      videoTitle: "Folge 9: Chaebol in Korea (Wirtschaftsgeographie Tübingen)",
       keyPoints: [
         {
           title: "Die 7 Fünfjahrespläne (1962–1996)",
@@ -211,7 +213,8 @@ const KOREA_DATA = {
       summary: "Südkoreas Aufstieg war tief verwoben mit der Frontlinie des Kalten Krieges und massiver amerikanischer Rückendeckung.",
       image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1000&q=80",
       imageCaption: "Grenzbeobachtung und Hochsicherheit an der DMZ",
-      youtubeId: "5GhmL_a4g74",
+      youtubeId: "A5K_hGOVs6M",
+      videoTitle: "Der Koreakrieg und seine Folgen (MrWissen2go Geschichte | Terra X)",
       keyPoints: [
         {
           title: "US-Milliarden & ungleicher Marktzugang",
@@ -232,7 +235,7 @@ const KOREA_DATA = {
         sampleSolution: "Nein, sehr unwahrscheinlich. Ohne US-Gelder, japanische Kredite und zollfreien US-Marktzugang hätte Südkorea weder Kapital noch Absatzmärkte gehabt. Heutige Entwicklungsländer besitzen diesen einmaligen Sonderstatus nicht mehr."
       },
       weblinks: [
-        { label: "bpb: Der Korea-Konflikt und die USA", url: "https://www.bpb.de" }
+        { label: "bpb: Der Korea-Konflikt und die USA", url: "https://www.bpb.de/themen/asien/ostasien/korea-konflikt/" }
       ]
     },
 
@@ -245,7 +248,8 @@ const KOREA_DATA = {
       summary: "Der Rekordaufstieg hatte einen brutalen Preis: Zwangsarbeit, Umweltzerstörung, Asienkrise 1997 und extreme gesellschaftliche Krisen.",
       image: "https://images.unsplash.com/photo-1506812574058-fc75fa93fead?auto=format&fit=crop&w=1000&q=80",
       imageCaption: "Megacity Seoul zwischen Wohlstand und gnadenlosem Leistungsdruck",
-      youtubeId: "rVnO_d2_eUQ",
+      youtubeId: "5_ZnHSZ6xTw",
+      videoTitle: "Warum Südkorea ein Albtraum ist – Schattenseiten & Leistungsdruck (Simplicissimus)",
       keyPoints: [
         {
           title: "Brutale Militärdiktatur & Gwangju (1980)",
@@ -283,7 +287,8 @@ const KOREA_DATA = {
       summary: "Kann ein Land in Afrika (wie Ghana oder Ruanda) Südkoreas Weg heute 1:1 kopieren? Die klare Gegenüberstellung.",
       image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1000&q=80",
       imageCaption: "High-Tech-Industrie: Vorbild, aber keine einfache Schablone",
-      youtubeId: "vBhyjI0_JdE",
+      youtubeId: "vnx-Oh8i8W8",
+      videoTitle: "Entwicklung der Tigerstaaten – Asiens Aufstieg (Geographie simpleclub)",
       keyPoints: [
         {
           title: "WAS KANN DER GLOBALE SÜDEN LERNEN? (Pro)",

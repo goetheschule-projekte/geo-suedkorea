@@ -199,8 +199,23 @@ function initStations() {
     `).join("") : "";
 
     const videoEmbedHtml = st.youtubeId ? `
-      <div class="video-container">
-        <iframe src="https://www.youtube-nocookie.com/embed/${st.youtubeId}" title="${escapeHtml(st.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video-card-wrap">
+        <div class="video-container">
+          <iframe 
+            src="https://www.youtube-nocookie.com/embed/${st.youtubeId}?rel=0" 
+            title="${escapeHtml(st.videoTitle || st.title)}" 
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-meta-bar">
+          <span class="video-meta-title">🎬 <strong>${escapeHtml(st.videoTitle || "Erklärvideo zur Station")}</strong></span>
+          <a href="https://www.youtube.com/watch?v=${st.youtubeId}" target="_blank" rel="noopener noreferrer" class="video-direct-btn" title="Video direkt auf YouTube öffnen">
+            Auf YouTube öffnen ↗
+          </a>
+        </div>
       </div>
     ` : "";
 
@@ -214,7 +229,7 @@ function initStations() {
       <div class="station-grid">
         <div class="station-media-col">
           <div class="station-image-wrap">
-            <img src="${escapeHtml(st.image)}" alt="${escapeHtml(st.title)}" loading="lazy">
+            <img src="${escapeHtml(st.image)}" alt="${escapeHtml(st.title)}" loading="lazy" onerror="this.closest('.station-image-wrap').style.display='none'">
             <div class="station-img-caption">📷 ${escapeHtml(st.imageCaption)}</div>
           </div>
           ${videoEmbedHtml}
