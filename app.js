@@ -23,7 +23,15 @@ document.addEventListener("DOMContentLoaded", () => {
   initQuiz();
   initMaterialsAndPrompts();
   initGroupWorksheetExport();
+  checkProtocolHint();
 });
+
+function checkProtocolHint() {
+  const hint = document.querySelector(".local-server-hint");
+  if (hint && window.location.protocol !== "file:") {
+    hint.style.display = "none";
+  }
+}
 
 /* -------------------------------------------------------------------
    1. HELL- / DUNKELMODUS

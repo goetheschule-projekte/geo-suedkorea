@@ -749,7 +749,7 @@ const KOREA_DATA = {
       title: "Der Koreakrieg und seine Folgen",
       channel: "MrWissen2go Geschichte / Terra X",
       duration: "ca. 18 Min.",
-      youtubeId: "R9j0s91c890",
+      youtubeId: "A5K_hGOVs6M",
       summary: "Historische Aufarbeitung des Koreakrieges (1950–1953), der geopolitischen Teilung entlang des 38. Breitengrads und der US-amerikanischen Sicherheitsgarantien.",
       examRelevance: "Relevant für die Ausgangslage & Geopolitik: Verdeutlicht die Startbedingungen des kriegszerstörten Südens und den Sicherheitsbonus im Kalten Krieg."
     },
