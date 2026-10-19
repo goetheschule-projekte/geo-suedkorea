@@ -3,7 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Südkorea als Wirtschaftsmacht - Digitales Handout</title>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Südkorea als Wirtschaftsmacht – Geographische Analyse & Abitur-Dossier (Q3)</title>
+  
+  <!-- Schriftarten: Merriweather & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
   <script>
     (function() {
       try {
@@ -20,195 +27,374 @@
 <body>
 
   <!-- ===================================================================
-       KOPFZEILE & NAVIGATION
+       1. KOPFZEILE & TAB-NAVIGATION (GOETHESCHULE WETZLAR)
        =================================================================== -->
   <header class="site-header">
-    <div class="header-container">
-      <div class="logo-area">
-        <span>🇰🇷</span>
-        <span>Südkorea: Wirtschaftsmacht & Blaupause?</span>
+    <div class="header-inner">
+      <div class="brand-area">
+        <div class="brand-logo-badge">
+          <img src="gow_logo.png" alt="Goetheschule Logo" class="brand-img" onerror="this.style.display='none'">
+          <span>Goetheschule Wetzlar</span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Südkorea: Wirtschaftsmacht & Blaupause?</span>
+          <span class="brand-subtitle">Fachliche Raumanalyse • Geographie Q3 (KCGO)</span>
+        </div>
       </div>
 
-      <nav class="nav-links">
-        <a href="#abstract" class="nav-btn">📖 Abstract</a>
-        <a href="#stationen" class="nav-btn">🏫 5 Stationen</a>
-        <a href="#basiskonzepte" class="nav-btn">🌱 Basiskonzepte</a>
-        <a href="#swot" class="nav-btn">📊 SWOT</a>
-        <a href="#quiz" class="nav-btn nav-btn-highlight">🎯 Quiz</a>
-        <a href="#quellen" class="nav-btn">📚 Quellen</a>
-        <button id="toggleThemeBtn" class="nav-btn theme-toggle-btn" title="Zwischen Hell- und Dunkelmodus wechseln">
-          🌙 Dark Mode
+      <div class="header-actions">
+        <button id="toggleThemeBtn" class="header-action-btn" title="Zwischen Hell- und Dunkelmodus wechseln">
+          Dunkelmodus
         </button>
-        <button id="toggleEditModeBtn" class="nav-btn edit-toggle-btn" title="Klicke hier, um Texte direkt auf der Seite zu bearbeiten">
-          ✏️ Live bearbeiten
+        <button class="header-action-btn print-btn" onclick="window.print()" title="Als strukturiertes Abitur-Handout drucken">
+          Handout drucken
         </button>
-      </nav>
+      </div>
     </div>
+
+    <!-- ===================================================================
+         TAB-NAVIGATION (KOMPAKT, KEIN HORIZONTALES SCROLLEN NÖTIG)
+         =================================================================== -->
+    <nav class="main-tabs-bar" id="mainTabsBar">
+      <div class="tabs-inner-container">
+        <button class="tab-item active" data-tab="all">Übersicht</button>
+        <button class="tab-item" data-tab="abstract">Abstract</button>
+        <button class="tab-item" data-tab="entwicklungsweg">Entwicklungsweg</button>
+        <button class="tab-item" data-tab="raumanalyse">Raumanalyse</button>
+        <button class="tab-item" data-tab="blaupause">Blaupause?</button>
+        <button class="tab-item" data-tab="stationen">Stationenlernen</button>
+        <button class="tab-item" data-tab="videos">Videos</button>
+        <button class="tab-item" data-tab="basiskonzepte">Basiskonzepte & SWOT</button>
+        <button class="tab-item" data-tab="quiz">Wissensquiz</button>
+        <button class="tab-item" data-tab="quellen">Quellen</button>
+      </div>
+    </nav>
   </header>
 
   <!-- ===================================================================
-       HERO BEREICH
+       2. HERO BEREICH (SACHLICH & GEERDET)
        =================================================================== -->
-  <section class="hero">
-    <div class="hero-content">
-      <span class="hero-tag">Geographie Q3 • Digitales Handout</span>
-      <h1>Strategien von Import & Export: Südkoreas Aufstieg zur Wirtschaftsmacht – Eine Blaupause für den Süden?</h1>
-      <p>
-        Ein interaktives Arbeits- und Ergebnissicherungs-Handout nach den Vorgaben des Geographie-Lehrplans (KCGO). Erarbeitet euch die Stationen im Team, vertieft die Basiskonzepte und löst das Quiz!
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-context-line">
+        Goetheschule Wetzlar • Grund- und Leistungskurs Geographie Q3 • KCGO Vorbereitung
+      </div>
+      
+      <h1 class="hero-title titlebold">
+        Südkoreas Aufstieg zur Wirtschaftsmacht
+      </h1>
+      
+      <p class="hero-description">
+        Eine geographische Raumanalyse der Transformation von 1953 bis heute:
+        Ursachen, regionale Disparitäten, Einbindung in globale Wertschöpfungsketten und eine kriteriengeleitete Prüfung der Leitfrage zur Übertragbarkeit auf den Globalen Süden.
       </p>
-      <div class="hero-actions">
-        <a href="#stationen" class="btn-primary">🚀 Direkt zu den 5 Lernstationen</a>
-        <a href="#abstract" class="btn-secondary">📖 Abstract lesen</a>
-        <button class="btn-secondary" onclick="window.print()">🖨️ Als Handout drucken / PDF</button>
+
+      <div class="hero-meta-grid" id="heroQuickStats">
+        <!-- Dynamisch aus data.js befüllt -->
       </div>
     </div>
   </section>
 
-  <main class="container">
+  <!-- ===================================================================
+       3. HAUPTINHALT
+       =================================================================== -->
+  <main class="main-content-wrap">
 
-    <!-- 1. ABSTRACT (Vorgabe des Bewertungsrasters) -->
-    <section id="abstract" class="section">
-      <div class="abstract-box">
-        <div class="abstract-badge">Wissenschaftliches Abstract</div>
-        <h2 id="abstractTitle" class="abstract-title"></h2>
-        <p id="abstractText" class="abstract-text"></p>
-      </div>
-    </section>
-
-    <!-- 2. STECKBRIEF & KENNZAHLEN -->
-    <section id="steckbrief" class="section">
-      <div class="section-title-wrap">
-        <span class="section-badge">Wirtschaftswunder</span>
-        <h2 class="section-title">Der historische Wandel im Überblick</h2>
-        <p class="section-subtitle">Die wichtigsten Kennzahlen zur Transformation Südkoreas seit 1960.</p>
-      </div>
-      <div class="facts-grid" id="factsGrid"></div>
-    </section>
-
-    <!-- 3. SEKTORENWANDEL (FOURASTIÉ / CLARK) -->
-    <section id="sektoren" class="section">
-      <div class="section-title-wrap">
-        <span class="section-badge">Wirtschaftsgeographie</span>
-        <h2 class="section-title">Sektoraler Strukturwandel (1960 bis heute)</h2>
-        <p class="section-subtitle">Verschiebung der Beschäftigung und Wertschöpfung in den drei Wirtschaftssektoren.</p>
-      </div>
-      <div class="sektoren-grid" id="sektorenGrid"></div>
-    </section>
-
-    <!-- 4. DIE 5 LERNSTATIONEN (GRUPPENARBEIT) -->
-    <section id="stationen" class="section">
-      <div class="section-title-wrap">
-        <span class="section-badge">Gruppenarbeit</span>
-        <h2 class="section-title">Die 5 thematischen Lernstationen</h2>
-        <p class="section-subtitle">
-          Wählt eure Station aus, seht euch die Videos und Fakten an und beantwortet die Arbeitsfrage im Team. Eure Antworten werden automatisch gesichert!
+    <!-- ---------------------------------------------------------------
+         SEKTION 1: ABSTRACT (ca. 650 WÖRTER)
+         --------------------------------------------------------------- -->
+    <section id="abstract" class="content-section tab-target" data-section="abstract">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Zusammenfassung</span>
+        <h2 class="section-heading titlebold">Wissenschaftlicher Abstract</h2>
+        <p class="section-subheading">
+          Fachliche Zusammenfassung der Raumanalyse: Ausgangslage, Entwicklungsstrategie, sektoraler Wandel, gesellschaftliche Folgekosten und begründetes Urteil zur Leitfrage.
         </p>
       </div>
 
-      <div class="station-nav-tabs" id="stationNavTabs"></div>
+      <div class="abstract-card roundb">
+        <div class="abstract-meta-bar">
+          <span class="abstract-meta-tag">Umfang: ca. 655 Wörter</span>
+          <span class="abstract-meta-tag">Lesezeit: ca. 3–4 Min.</span>
+          <span class="abstract-meta-tag">Fachniveau: Geographie Oberstufe</span>
+        </div>
+        <div id="abstractContent" class="abstract-body">
+          <!-- Dynamisch aus data.js gerendert -->
+        </div>
+        <div class="abstract-takeaway-banner" id="abstractTakeaway"></div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         SEKTION 2: ENTWICKLUNGSWEG (6 PHASEN)
+         --------------------------------------------------------------- -->
+    <section id="entwicklungsweg" class="content-section tab-target" data-section="entwicklungsweg">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Historische Phasen</span>
+        <h2 class="section-heading titlebold">Der Entwicklungsweg: Phasen und Steuerungsmechanismen</h2>
+        <p class="section-subheading">
+          Zusammenwirken von staatlicher Industriepolitik, Bildungsoffensive, Infrastrukturausbau und weltwirtschaftlichen Rahmenbedingungen seit 1953.
+        </p>
+      </div>
+
+      <div class="timeline-container" id="timelineContainer">
+        <!-- Dynamisch aus data.js gerendert -->
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         SEKTION 3: RAUM- UND PROBLEMANALYSE
+         --------------------------------------------------------------- -->
+    <section id="raumanalyse" class="content-section tab-target" data-section="raumanalyse">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Raumwirksamkeit</span>
+        <h2 class="section-heading titlebold">Raum- und Problemanalyse</h2>
+        <p class="section-subheading">
+          Zentrums-Peripherie-Disparitäten, verkehrsgeographische Insellage, fossile Rohstoffarmut und sektoraler Strukturwandel.
+        </p>
+      </div>
+
+      <!-- Kacheln der 4 Kernanalysen -->
+      <div class="spatial-analysis-grid" id="spatialGrid">
+        <!-- Dynamisch befüllt -->
+      </div>
+
+      <!-- Sektoraler Strukturwandel (Fourastié & Clark) -->
+      <div class="sektoren-section-box roundb">
+        <div class="sektoren-header">
+          <span class="sektoren-badge">Strukturwandel (Fourastié & Clark)</span>
+          <h3 class="titlebold">Sektoraler Wandel in Südkorea (1960 bis heute)</h3>
+          <p>
+            Verschiebung der Erwerbstätigen- und BIP-Anteile vom Agrarstaat hin zu Industrie und Dienstleistungsgesellschaft:
+          </p>
+        </div>
+        <div class="sektoren-cards-grid" id="sektorenGrid">
+          <!-- Dynamisch befüllt -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         SEKTION 4: BLAUPAUSE FÜR DEN GLOBALEN SÜDEN?
+         --------------------------------------------------------------- -->
+    <section id="blaupause" class="content-section tab-target" data-section="blaupause">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Leitfrage</span>
+        <h2 class="section-heading titlebold">Blaupause für den Globalen Süden?</h2>
+        <p class="section-subheading">
+          Differenzierte Beurteilung: Welche Strategien sind grundsätzlich übertragbar und welche historischen, völkerrechtlichen und ethischen Rahmenbedingungen begrenzen die Übertragbarkeit?
+        </p>
+      </div>
+
+      <div class="blueprint-comparison-grid">
+        <!-- Übertragbare Aspekte -->
+        <div class="blueprint-card blueprint-pro roundb">
+          <div class="blueprint-card-header">
+            <span class="blueprint-badge badge-pro">Übertragbare Grundsätze</span>
+            <h3 class="titlebold">Was Entwicklungsländer lernen können</h3>
+          </div>
+          <div class="blueprint-list" id="blueprintProList"></div>
+        </div>
+
+        <!-- Begrenzende Faktoren -->
+        <div class="blueprint-card blueprint-contra roundb">
+          <div class="blueprint-card-header">
+            <span class="blueprint-badge badge-contra">Systemische Restriktionen</span>
+            <h3 class="titlebold">Warum Südkorea kein Universalmodell ist</h3>
+          </div>
+          <div class="blueprint-list" id="blueprintContraList"></div>
+        </div>
+      </div>
+
+      <!-- Fallbeispiele / Ländervergleiche -->
+      <div class="country-case-box roundb">
+        <h3 class="titlebold" style="color: var(--gw-blue); margin-bottom: 0.5rem;">Ländervergleiche im Globalen Süden</h3>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">
+          Gegenüberstellung mit heutigen Entwicklungs- und Schwellenländern:
+        </p>
+        <div class="case-grid" id="countryCaseGrid"></div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         SEKTION 5: LERNSTATIONEN (GRUPPENARBEIT)
+         --------------------------------------------------------------- -->
+    <section id="stationen" class="content-section tab-target" data-section="stationen">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Unterricht & Gruppenarbeit</span>
+        <h2 class="section-heading titlebold">5 Thematische Lernstationen</h2>
+        <p class="section-subheading">
+          Erarbeitet die Stationen im Team: Analysiert die Materialien, diskutiert die Fragestellungen und formuliert eure Antworten. Eingaben werden automatisch im Browser gesichert.
+        </p>
+      </div>
+
+      <div class="station-nav-bar" id="stationNavTabs"></div>
       <div id="stationsContainer"></div>
     </section>
 
-    <!-- 5. BASISKONZEPTE DES GEOGRAPHIE-LEHRPLANS -->
-    <section id="basiskonzepte" class="section">
-      <div class="section-title-wrap">
-        <span class="section-badge">Lehrplan-Kriterien (KCGO)</span>
-        <h2 class="section-title">Analyse anhand der geographischen Basiskonzepte</h2>
-        <p class="section-subtitle">Vieldimensionalität: Nachhaltigkeit, Maßstabsebenen, Zeithorizonte und Generationengerechtigkeit.</p>
+    <!-- ---------------------------------------------------------------
+         SEKTION: DOKUMENTATIONEN & ERKLÄRVIDEOS
+         --------------------------------------------------------------- -->
+    <section id="videos" class="content-section tab-target" data-section="videos">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Mediathek</span>
+        <h2 class="section-heading titlebold">Dokumentationen und Erklärvideos</h2>
+        <p class="section-subheading">
+          Ausgewählte Fachbeiträge zur Vertiefung: Vom historischen Aufstieg und den Chaebols über den Koreakrieg bis zu den Schattenseiten und der Demografiekrise.
+        </p>
       </div>
+
+      <div class="local-server-hint roundb">
+        <strong>Hinweis zur Videowiedergabe:</strong> Wenn du die HTML-Datei lokal von der Festplatte geöffnet hast (<code>file://</code>) oder ein Werbeblocker aktiv ist, verweigert YouTube gelegentlich die Einbettung (Fehler 153). Klicke in diesem Fall einfach auf den Button <strong>„Video direkt auf YouTube öffnen ↗“</strong>, um den Beitrag direkt in voller Qualität anzusehen.
+      </div>
+
+      <div class="video-library-grid" id="videoGrid">
+        <!-- Dynamisch aus data.js gerendert -->
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         SEKTION 6: BASISKONZEPTE & SWOT-ANALYSE
+         --------------------------------------------------------------- -->
+    <section id="basiskonzepte" class="content-section tab-target" data-section="basiskonzepte">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Lehrplan-Kriterien (KCGO)</span>
+        <h2 class="section-heading titlebold">Basiskonzepte & SWOT-Analyse</h2>
+        <p class="section-subheading">
+          Fachmethodische Einordnung anhand der geographischen Basiskonzepte des Lehrplans Hessen sowie eine SWOT-Raumbilanz.
+        </p>
+      </div>
+
       <div class="basiskonzepte-grid" id="basiskonzepteGrid"></div>
-    </section>
 
-    <!-- 6. SWOT-ANALYSE -->
-    <section id="swot" class="section">
-      <div class="section-title-wrap">
-        <span class="section-badge">Strategische Raumanalyse</span>
-        <h2 class="section-title">SWOT-Analyse: Südkorea als Entwicklungsmodell</h2>
-        <p class="section-subtitle">Stärken, Schwächen, Chancen und Risiken der südkoreanischen Entwicklungsstrategie.</p>
-      </div>
-      <div class="swot-container" id="swotContainer"></div>
-    </section>
-
-    <!-- 7. FACHBEGRIFFE / FLASHCARDS -->
-    <section id="begriffe" class="section">
-      <div class="section-title-wrap">
-        <span class="section-badge">Fachsprache</span>
-        <h2 class="section-title">Zentrale Fachbegriffe zum Aufdecken</h2>
-        <p class="section-subtitle">Klicke auf eine Karte, um die Definition einzublenden.</p>
-      </div>
-      <div class="flashcards-grid" id="flashcardsGrid"></div>
-    </section>
-
-    <!-- 8. WISSENS-QUIZ -->
-    <section id="quiz" class="section">
-      <div class="section-title-wrap">
-        <span class="section-badge">Lernkontrolle</span>
-        <h2 class="section-title">Das Südkorea-Wissensquiz</h2>
-        <p class="section-subtitle">Testet euer Verständnis zur Leitfrage im Team!</p>
+      <!-- SWOT Analyse -->
+      <div class="swot-wrapper roundb">
+        <h3 class="titlebold" style="color: var(--gw-blue); margin-bottom: 0.5rem;">SWOT-Analyse des südkoreanischen Modells</h3>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">
+          Stärken, Schwächen, Chancen und Risiken der Entwicklungsstrategie:
+        </p>
+        <div class="swot-grid" id="swotContainer"></div>
       </div>
 
-      <div class="quiz-wrapper">
-        <div class="quiz-progress-bar-wrap">
-          <div class="quiz-progress-bar" id="quizProgressBar"></div>
+      <!-- Fachbegriffe -->
+      <div class="flashcards-wrapper roundb">
+        <h3 class="titlebold" style="color: var(--gw-blue); margin-bottom: 0.5rem;">Zentrale Fachbegriffe zum Aufdecken</h3>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">
+          Klicke auf eine Karte, um die Definition einzublenden:
+        </p>
+        <div class="flashcards-grid" id="flashcardsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         SEKTION 7: WISSENS-QUIZ
+         --------------------------------------------------------------- -->
+    <section id="quiz" class="content-section tab-target" data-section="quiz">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Lernkontrolle</span>
+        <h2 class="section-heading titlebold">Wissensquiz zur Selbstkontrolle</h2>
+        <p class="section-subheading">
+          8 fachliche Fragen zu Ursachen, Disparitäten, Strukturwandel und der Leitfrage:
+        </p>
+      </div>
+
+      <div class="quiz-card roundb">
+        <div class="quiz-progress-track">
+          <div class="quiz-progress-fill" id="quizProgressBar"></div>
         </div>
 
         <div id="quizActiveWrap">
-          <div class="quiz-header-meta">
-            <span id="quizCounter">Frage 1 von 6</span>
-            <span>🏆 Geographie Q3 Challenge</span>
+          <div class="quiz-status-line">
+            <span id="quizCounter" class="quiz-badge">Frage 1 von 8</span>
+            <span class="quiz-badge">Geographie Q3</span>
           </div>
 
-          <div class="quiz-question-text" id="quizQuestion">Frage lädt...</div>
-          <div class="quiz-options-list" id="quizOptions"></div>
+          <div class="quiz-question-box" id="quizQuestion">Frage wird geladen...</div>
+          <div class="quiz-options-grid" id="quizOptions"></div>
           <div class="quiz-feedback-box" id="quizFeedback"></div>
 
-          <div style="text-align: right;">
-            <button class="quiz-next-btn" id="quizNextBtn">Nächste Frage ➔</button>
+          <div class="quiz-actions-bar">
+            <button class="btn-primary" id="quizNextBtn">Nächste Frage</button>
           </div>
         </div>
 
-        <div class="quiz-results-box" id="quizResults">
-          <div style="font-size: 2.5rem;">🎉</div>
-          <h3 style="margin-top: 0.5rem;">Quiz abgeschlossen!</h3>
-          <div class="quiz-results-score" id="finalScore">0 / 6</div>
-          <p class="quiz-results-note">Klasse Leistung! Ihr habt die Kernzusammenhänge der Leitfrage verstanden.</p>
-          <button class="btn-primary" id="quizRestartBtn">🔄 Quiz wiederholen</button>
+        <div class="quiz-results-card" id="quizResults" style="display: none;">
+          <h3 class="titlebold">Auswertung</h3>
+          <div class="quiz-score-display" id="finalScore">0 / 8</div>
+          <p class="quiz-score-text" id="finalScoreFeedback"></p>
+          <button class="btn-primary" id="quizRestartBtn">Quiz wiederholen</button>
         </div>
       </div>
     </section>
 
-    <!-- 9. QUELLENVERZEICHNIS & KI-PROMPTS -->
-    <section id="quellen" class="section">
-      <div class="section-title-wrap">
-        <span class="section-badge">Wissenschaftliches Arbeiten</span>
-        <h2 class="section-title">Quellenverzeichnis & KI-Recherche-Prompts</h2>
-        <p class="section-subtitle">Verlässliche Fachliteratur und gezielte Such-Prompts für eure individuelle Vertiefung.</p>
+    <!-- ---------------------------------------------------------------
+         SEKTION 8: QUELLEN & RECHERCHEHINWEISE
+         --------------------------------------------------------------- -->
+    <section id="quellen" class="content-section tab-target" data-section="quellen">
+      <div class="section-header-box">
+        <span class="section-tag-badge">Literatur & Recherche</span>
+        <h2 class="section-heading titlebold">Materialsammlung und Quellen</h2>
+        <p class="section-subheading">
+          Fachliteratur und statistische Primärquellen mit Erläuterung ihrer Relevanz für das Referat:
+        </p>
       </div>
-      <div class="quellen-prompts-layout">
-        <div class="quellen-col" id="quellenList"></div>
-        <div class="prompts-col" id="promptsList"></div>
+
+      <div class="materials-wrapper">
+        <div class="material-list-box roundb">
+          <h3 class="titlebold" style="color: var(--gw-blue); margin-bottom: 1rem;">Kommentierte Fachquellen</h3>
+          <div id="materialList" class="material-items-grid"></div>
+        </div>
+
+        <div class="prompts-list-box roundb">
+          <h3 class="titlebold" style="color: var(--gw-blue); margin-bottom: 1rem;">Vertiefende Fragestellungen für das Referat</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1rem;">
+            Leitfragen für die eigene Vorbereitung und Facharbeiten:
+          </p>
+          <div id="promptsList" class="prompts-items-grid"></div>
+        </div>
       </div>
     </section>
 
-    <!-- 10. EXPORT & DRUCK-HANDOUT BEREICH -->
-    <section class="worksheet-export-box">
-      <h3>📄 Handout drucken oder Antworten sichern</h3>
-      <p>
-        Alle Antworten wurden automatisch in eurem Browser gespeichert. Ihr könnt eure Ergebnisse als Textdatei sichern oder die gesamte Seite direkt als fertiges Handout für das Abitur ausdrucken.
-      </p>
-      <div class="export-btn-group">
-        <button class="btn-primary" id="printWorksheetBtn">
-          🖨️ Handout als PDF / Papier drucken
-        </button>
-        <button class="btn-secondary" id="exportTextBtn">
-          💾 Gruppen-Antworten als .txt speichern
-        </button>
+    <!-- ---------------------------------------------------------------
+         SEKTION 9: EXPORT
+         --------------------------------------------------------------- -->
+    <section class="export-banner roundb">
+      <div class="export-banner-content">
+        <h3 class="titlebold">Handout drucken & Antworten sichern</h3>
+        <p>
+          Die Antworten zu den Lernstationen sind lokal in deinem Browser gesichert. Du kannst deine Notizen als Textdatei sichern oder die gesamte Seite als Handout für den Unterricht ausdrucken.
+        </p>
+        <div class="export-actions">
+          <button class="btn-primary" onclick="window.print()">
+            Vollständiges Handout drucken / PDF
+          </button>
+          <button class="btn-secondary" id="exportTextBtn">
+            Antworten als .txt herunterladen
+          </button>
+        </div>
       </div>
     </section>
 
   </main>
 
-  <!-- Skripte -->
+  <!-- ===================================================================
+       FOOTER
+       =================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <strong>Geographie Q3 • Facharbeit & Referat</strong><br>
+        Goetheschule Wetzlar • Leitfrage: <em>Südkoreas Aufstieg – Blaupause für den Globalen Süden?</em>
+      </div>
+      <div class="footer-right">
+        Erstellt nach den Bildungsstandards des KCGO Hessen (Wirtschaftsgeographie)
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       SCRIPTE
+       =================================================================== -->
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
