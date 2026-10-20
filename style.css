@@ -1091,6 +1091,23 @@ a:hover {
   border-color: #93c5fd;
 }
 
+.clear-station-btn {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-station-btn:hover {
+  color: #ef4444;
+  border-color: #ef4444;
+}
+
 .sample-solution-box {
   margin-top: 0.85rem;
   background: var(--bg-card);

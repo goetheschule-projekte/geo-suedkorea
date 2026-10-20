@@ -30,27 +30,27 @@ const KOREA_DATA = {
     subheading: "Raumanalyse & Fazit zur Leitfrage (KCGO Geographie Q3)",
     paragraphs: [
       {
-        heading: "1. Ausgangslage und die Bodenreform (1953–1960)",
-        text: "Nach dem Koreakrieg im Jahr 1953 war Südkorea wirtschaftlich stark geschwächt. Das BIP pro Kopf lag Anfang der 1960er-Jahre bei etwa 94 bis 159 US-Dollar. Auch die Industrie war ungleich verteilt: Während sich viele Industrieanlagen und Wasserkraftwerke im mineralreichen Norden befanden, war der Süden stärker landwirtschaftlich geprägt. Durch die Grenze zu Nordkorea war Südkorea außerdem vom Landweg nach Asien abgeschnitten. Bis heute muss das Land einen großen Teil seiner fossilen Energieträger importieren.\n\nEin wichtiger Grundstein für die spätere Entwicklung war die Bodenreform von 1949/50. Der Landbesitz wurde begrenzt, sodass viele Bauern eigenes Land bewirtschaften konnten. Dadurch veränderten sich die ländlichen Besitzverhältnisse. Die Reform war zwar nicht allein für den späteren Aufstieg verantwortlich, schuf aber wichtige Voraussetzungen für die weitere Entwicklung."
+        heading: "1. Ausgangslage und Bodenreform (1953–1960)",
+        text: "Nach dem Koreakrieg 1953 war Südkorea wirtschaftlich stark geschwächt. Das Pro-Kopf-BIP lag 1960 bei etwa 159 US-Dollar und 1961 bei nur rund 94 US-Dollar. Damit lag Südkorea damals sogar hinter Ghana. Ein Grund für die schwierige Ausgangslage war die japanische Kolonialzeit: Ein großer Teil der Schwerindustrie und viele Wasserkraftwerke lagen im Norden, während der Süden stärker landwirtschaftlich geprägt war. Durch die Grenze zu Nordkorea ist Südkorea außerdem auf Verkehrswege über das Meer angewiesen. Auch heute muss das Land den Großteil seiner fossilen Energieträger importieren.\n\nEine wichtige Grundlage für die spätere Entwicklung war die Bodenreform von 1949/50. Sie begrenzte den Landbesitz und ermöglichte vielen Bauern, eigenes Land zu bewirtschaften. Dadurch veränderten sich die Besitzverhältnisse auf dem Land. Die Reform war zwar nicht allein für den späteren Aufstieg verantwortlich, verbesserte aber die Ausgangsbedingungen für viele Familien."
       },
       {
-        heading: "2. Die Rolle des Staates und der Großkonzerne",
-        text: "Südkoreas Aufstieg lässt sich nicht allein durch freie Marktwirtschaft erklären. Unter Park Chung-hee griff der Staat stark in die Wirtschaft ein und steuerte die Entwicklung ab 1962 durch Fünfjahrespläne. Große Unternehmen wie Samsung, Hyundai und LG erhielten gezielt Unterstützung, beispielsweise durch günstige Kredite. Gleichzeitig sollten sie ihre Produkte zunehmend auf dem Weltmarkt verkaufen. Die Exportorientierung wurde damit zu einem wichtigen Bestandteil der südkoreanischen Wirtschaftspolitik.\n\nAuch die Arbeitsmigration nach Westdeutschland spielte eine Rolle. Bergleute und Pflegekräfte überwiesen einen Teil ihres Einkommens nach Südkorea. Hinzu kamen Investitionen in Bildung, Forschung und technische Ausbildung. Diese Maßnahmen halfen dabei, die wirtschaftlichen Voraussetzungen für den späteren Aufstieg zu verbessern."
+        heading: "2. Der Staat als Motor der Industrialisierung",
+        text: "Südkoreas Aufstieg lässt sich nicht einfach mit einer freien Marktwirtschaft erklären. Der Staat griff stark in die Wirtschaft ein und bestimmte unter Park Chung-hee ab den 1960er-Jahren wichtige Entwicklungsziele. Über Fünfjahrespläne wurden bestimmte Branchen gefördert. Große Familienunternehmen wie Samsung, Hyundai und LG erhielten unter anderem günstige Kredite und Unterstützung beim Ausbau ihrer Produktion. Im Gegenzug sollten sie ihre Produkte erfolgreich ins Ausland verkaufen.\n\nDiese Strategie half Südkorea, seine Industrie auszubauen und auf dem Weltmarkt konkurrenzfähig zu werden. Gleichzeitig entstand dadurch eine starke Abhängigkeit von wenigen Großkonzernen. Auch die Überweisungen südkoreanischer Bergleute und Pflegekräfte, die in Westdeutschland arbeiteten, brachten Devisen ins Land. Ein weiterer wichtiger Faktor war der Ausbau des Bildungs- und Forschungssystems."
       },
       {
-        heading: "3. Strukturwandel und Einbindung in die Weltwirtschaft",
-        text: "Seit den 1960er-Jahren hat sich die Wirtschaftsstruktur stark verändert. Zunächst waren einfache Produkte wie Textilien wichtig. Später kamen die Schwerindustrie, der Schiffbau und die Stahlproduktion hinzu. Heute gehören unter anderem Halbleiter, Elektronik und Batterien zu den wichtigen Bereichen der südkoreanischen Wirtschaft.\n\nDie Industrie hat weiterhin einen hohen Anteil an der Wirtschaftsleistung. Gleichzeitig sind Dienstleistungen zum größten Wirtschaftssektor geworden. Räumlich konzentrieren sich viele Unternehmen und Arbeitsplätze auf die Achse zwischen Seoul und Busan sowie auf weitere große Städte und Hafenstandorte. Der Hafen von Busan ist dabei ein wichtiger Umschlagplatz für den internationalen Handel.\n\nDie starke Einbindung in globale Wertschöpfungsketten bringt allerdings auch Risiken mit sich. Südkorea ist auf Rohstoffimporte und ausländische Zulieferer angewiesen. Außerdem können Konflikte zwischen den USA und China die südkoreanische Wirtschaft treffen, da beide Länder für Südkorea aus unterschiedlichen Gründen wichtig sind."
+        heading: "3. Strukturwandel und räumliche Entwicklung",
+        text: "Südkorea entwickelte sich innerhalb weniger Jahrzehnte von einem überwiegend landwirtschaftlich geprägten Land zu einer modernen Industrienation. Zunächst waren Textilien und andere einfache Produkte wichtig. Später kamen Stahl, Schiffbau und die Automobilindustrie hinzu. Heute spielen vor allem Halbleiter und andere Hightech-Produkte eine große Rolle. Die Industrie hat deshalb weiterhin einen vergleichsweise hohen Anteil an der Wirtschaftsleistung.\n\nDie wirtschaftliche Entwicklung konzentrierte sich besonders auf die Achse zwischen Seoul und Busan sowie auf wichtige Küstenstandorte. Der Hafen von Busan ist ein bedeutender Umschlagplatz für den internationalen Handel. Diese starke Ausrichtung auf Exporte bringt allerdings auch Risiken mit sich: Südkorea ist auf funktionierende Seewege, importierte Rohstoffe und wichtige Handelspartner angewiesen. Außerdem gerät das Land zunehmend zwischen die wirtschaftlichen Interessen Chinas und die politischen und sicherheitspolitischen Interessen der USA."
       },
       {
-        heading: "4. Die sozialen und ökologischen Folgen",
-        text: "Der wirtschaftliche Aufstieg hat den Lebensstandard in Südkorea deutlich verbessert. Gleichzeitig sind Probleme entstanden, die bei einer Bewertung des Entwicklungsmodells berücksichtigt werden müssen. Dazu gehören hohe CO₂-Emissionen, eine starke Abhängigkeit von fossilen Energieträgern und große Unterschiede zwischen der Hauptstadtregion und ländlichen Gebieten.\n\nAuch die sozialen Probleme sind erheblich. Die relative Altersarmut ist im internationalen Vergleich sehr hoch. Dazu kommen hoher Leistungsdruck im Bildungssystem und hohe Wohnkosten, besonders im Großraum Seoul. Die Geburtenrate ist in den vergangenen Jahren auf ein sehr niedriges Niveau gefallen. Diese Entwicklungen zeigen, dass wirtschaftliches Wachstum nicht automatisch bedeutet, dass alle Bevölkerungsgruppen gleichermaßen davon profitieren."
+        heading: "4. Soziale und ökologische Probleme",
+        text: "Der wirtschaftliche Erfolg hat nicht alle Probleme gelöst. Südkorea hat hohe CO₂-Emissionen pro Kopf und ist stark von importierter Energie abhängig. Auch die Verteilung von Bevölkerung und Wirtschaft ist ungleich: Mehr als die Hälfte der Bevölkerung lebt im Großraum Seoul, während viele ländliche Regionen Einwohner verlieren.\n\nDazu kommen soziale Probleme. Hohe Wohnkosten und der starke Leistungsdruck in Schule und Beruf erschweren vielen jungen Menschen die Familiengründung. Die Geburtenrate erreichte 2023 mit 0,72 Kindern pro Frau einen historischen Tiefstand und stieg danach leicht an. Gleichzeitig ist die relative Altersarmut in Südkorea sehr hoch. Das zeigt, dass wirtschaftliches Wachstum allein nicht ausreicht, um den Wohlstand für alle Generationen zu sichern."
       },
       {
         heading: "5. Fazit: Ist Südkorea eine Blaupause für den Globalen Süden?",
-        text: "Südkorea kann heutigen Entwicklungs- und Schwellenländern wichtige Anregungen geben, ist aber kein Modell, das sich einfach vollständig übernehmen lässt. Der Aufstieg fand unter besonderen Bedingungen des Kalten Krieges statt. Dazu gehörten die Unterstützung durch die USA und ein internationaler Rahmen, der sich von den heutigen Bedingungen unterscheidet.\n\nEinige Ansätze sind trotzdem interessant: Dazu zählen Investitionen in Bildung, eine gezielte Förderung der Industrie und eine Bodenreform, die breiteren Bevölkerungsschichten wirtschaftliche Möglichkeiten eröffnet. Auch staatliche Unterstützung, die an konkrete Leistungen geknüpft ist, kann ein Ansatz sein. Dabei müssen die jeweiligen Voraussetzungen eines Landes berücksichtigt werden."
+        text: "Südkorea kann anderen Entwicklungsländern einige Anregungen geben, ist aber kein Modell, das sich einfach kopieren lässt. Der Aufstieg fand unter besonderen Bedingungen des Kalten Krieges statt. Dazu gehörten die Unterstützung durch die USA und eine internationale Wirtschaftslage, die sich von der heutigen unterscheidet. Auch die Regeln des Welthandels setzen bestimmten Maßnahmen der Industriepolitik Grenzen. Allerdings sind nicht alle staatlichen Subventionen oder Schutzzölle grundsätzlich verboten.\n\nÜbertragbar sind vor allem einzelne Ansätze: eine gerechtere Verteilung von Land, Investitionen in Bildung, der Aufbau leistungsfähiger Infrastruktur und eine gezielte Förderung von Unternehmen. Dabei müssen die jeweiligen Bedingungen eines Landes berücksichtigt werden. Südkorea zeigt sowohl, wie staatliche Planung und eine exportorientierte Industrie zum wirtschaftlichen Aufstieg beitragen können, als auch, welche sozialen und ökologischen Probleme entstehen können, wenn Wachstum zu stark im Mittelpunkt steht."
       }
     ],
-    wordCount: 594,
+    wordCount: 606,
     keyTakeaway: "Mein Fazit: Südkorea ist keine Blaupause, die andere Länder einfach kopieren können. Die Entwicklung zeigt aber, wie wichtig Bildung, eine langfristige Wirtschaftsstrategie und der Aufbau eigener Industrien sein können. Gleichzeitig machen die sozialen und ökologischen Probleme deutlich, dass wirtschaftliches Wachstum allein kein ausreichendes Entwicklungsziel ist."
   },
 
@@ -61,12 +61,12 @@ const KOREA_DATA = {
     title: "Südkoreas Entwicklung in Zahlen",
     subtitle: "Vom Agrarland zur modernen Industrienation (1960 bis heute)",
     meta: [
-      { label: "BIP pro Kopf 1960/61", value: "ca. 94–159 USD", sub: "Südkorea war damals eines der ärmsten Länder der Welt (Weltbank)" },
+      { label: "BIP pro Kopf 1960/61", value: "ca. 94–159 USD", sub: "1960: 159 USD; 1961: 94 USD (damals hinter Ghana; Weltbank)" },
       { label: "BIP pro Kopf heute", value: "ca. 36.200 USD nominal", sub: "Kaufkraftbereinigt über 61.000 USD (Weltbank / IWF)" },
-      { label: "Wirtschaft & Export", value: "13. größte Volkswirtschaft", sub: "Gehört zu den führenden Exportländern weltweit (Warenexport über 700 Mrd. USD)" },
-      { label: "Sektorale Anteile am BIP", value: "Dienstleistungen 57 %, Industrie 34 %, Agrar 1,5 %", sub: "Ungewöhnlich hohe Industriebasis für ein Industrieland (Weltbank)" },
-      { label: "Energie & Emissionen", value: "Über 90 % Energie-Importe | ~11,3 t CO₂/Kopf", sub: "Fast alle fossilen Brennstoffe werden importiert; hoher Ausstoß durch Industrie" },
-      { label: "Demografie & Soziales", value: "Geburtenrate ~0,75–0,80 | ~40 % Altersarmut", sub: "Niedrigste Geburtenrate und höchste relative Altersarmut in der OECD (OECD / KOSIS)" }
+      { label: "Wirtschaft & Export", value: "13. größte Volkswirtschaft", sub: "Gehört zu den führenden Exportländern (Warenexport über 700 Mrd. USD; MOTIE)" },
+      { label: "Sektorale Anteile am BIP", value: "Dienstleistungen 57 %, Industrie 34 %, Agrar 1,5 %", sub: "Vergleichsweise hoher Industrieanteil für ein Industrieland (Weltbank)" },
+      { label: "Energieversorgung & Importe", value: "Fast 98 % fossiler Import | ~22 % mit Atomkraft", sub: "Fast 98 % der fossilen Energie wird importiert. Selbstversorgung mit Atomkraft ca. 22 %, ohne ca. 5 % (IEA / EIA)" },
+      { label: "Demografie & Soziales", value: "Geburtenrate ~0,75–0,80 | ~40 % Altersarmut", sub: "Niedrigste Geburtenrate und höchste relative Altersarmut in der OECD (OECD / Statistics Korea)" }
     ]
   },
 
@@ -90,12 +90,12 @@ const KOREA_DATA = {
       industrialPolicy: "Gezielter Aufbau und Export einfacher, arbeitsintensiver Konsumgüter (Textilien, Schuhe, Perücken).",
       educationPolicy: "Schulpflicht durchgesetzt, gezielter Ausbau beruflicher und technischer Schulen.",
       spatialFocus: "Bau der Gyeongbu-Autobahn zwischen Seoul und Busan; Deviseneinnahmen durch koreanische Arbeitskräfte in Deutschland.",
-      geoOutcome: "Deutliches Wirtschaftswachstum; Südkorea wurde im weltweiten Niedrigpreissegment konkurrenzfähig."
+      geoOutcome: "Deutliches Wirtschaftswachstum; Südkorea wurde im weltweiten Niedrigpreissegment wettbewerbsfähig."
     },
     {
       phase: "Phase 3: 1972–1979",
       title: "Schwer- und Chemieindustrie (HCI-Programm)",
-      stateRole: "Autoritäres Regime; gezielte Förderung und Bevorzugung großer Familienunternehmen (Chaebols) durch Vorzugskredite.",
+      stateRole: "Autoritäres Regime; gezielte Bevorzugung großer Familienunternehmen (Chaebols) durch Vorzugskredite.",
       industrialPolicy: "Aufbau von Stahlproduktion (POSCO in Pohang), Großwerften in Ulsan, Petrochemie und ersten eigenen Fahrzeugen.",
       educationPolicy: "Gründung staatlicher Forschungseinrichtungen (wie KAIST 1971), um praxisnahe Ingenieure auszubilden.",
       spatialFocus: "Industrieausbau an der Südostküste wegen der guten Anbindung an Tiefseehäfen (Pohang, Ulsan, Busan).",
@@ -136,7 +136,7 @@ const KOREA_DATA = {
   raumAnalyse: {
     disparitaeten: {
       titel: "Regionale Unterschiede: Ballungsraum Seoul vs. ländliche Regionen",
-      erklaerung: "In Südkorea gibt es ein deutliches räumliches Ungleichgewicht. Weil die Wirtschaftspolitik lange Zeit vor allem die Achse zwischen Seoul und Busan gefördert hat, konzentriert sich heute ein Großteil der Bevölkerung und Wirtschaft im Großraum Seoul (Sudogwon), während andere Regionen – insbesondere der Südwesten – weniger profitierten:",
+      erklaerung: "In Südkorea gibt es ein deutliches räumliches Ungleichgewicht. Weil die Wirtschaftspolitik lange Zeit vor allem die Achse zwischen Seoul und Busan gefördert hat, konzentriert sich heute ein Großteil der Bevölkerung und Wirtschaft im Großraum Seoul (Sudogwon), während ländliche Gebiete – vor allem im Südwesten – weniger profitierten:",
       fakten: [
         { label: "Bevölkerung im Großraum Seoul", value: "Mehr als 50 % der Bevölkerung leben auf nur etwa 12 % der Landesfläche in der Hauptstadtregion (KOSIS)" },
         { label: "Unternehmenszentralen", value: "Ein Großteil der größten Unternehmen und börsennotierten Firmen hat seinen Sitz in der Hauptstadtregion" },
@@ -151,11 +151,11 @@ const KOREA_DATA = {
       erklaerung: "Südkorea hat sich von einem Standort für einfache und günstige Produkte zu einem wichtigen Hersteller von Hightech entwickelt. Diese Spezialisierung bringt allerdings auch Abhängigkeiten mit sich:",
       fakten: [
         { label: "Speicherchips (DRAM)", value: "Südkoreanische Unternehmen wie Samsung und SK Hynix gehören zu den weltweiten Marktführern bei Speicherchips" },
-        { label: "Bedeutung für den Export", value: "Halbleiter machen rund ein Fünftel bis ein Viertel der gesamten südkoreanischen Exporte aus" },
+        { label: "Bedeutung für den Export", value: "Halbleiter machen rund ein Fünftel bis ein Viertel der gesamten südkoreanischen Exporte aus (MOTIE)" },
         { label: "Abhängigkeit von Vorprodukten", value: "Für die Chipproduktion werden Spezialmaschinen (z. B. aus den Niederlanden) sowie Chemikalien aus dem Ausland benötigt" },
         { label: "Wichtige Handelspartner", value: "China und die USA sind die beiden mit Abstand wichtigsten Exportmärkte für südkoreanische Waren" }
       ],
-      konsequenzen: "Was das bedeutet: Südkorea steht geopolitisch in einem schwierigen Spannungsfeld. Die USA sind ein wichtiger Sicherheits- und Technologiepartner, während China der größte Absatzmarkt und ein wichtiger Produktionsstandort für südkoreanische Firmen ist. Handelskonflikte oder Technologiesanktionen zwischen beiden Staaten können die südkoreanische Wirtschaft deshalb direkt treffen."
+      konsequenzen: "Was das bedeutet: Südkorea steckt zwischen den USA und China. Die USA sind ein wichtiger Sicherheits- und Technologiepartner, während China der größte Absatzmarkt und ein wichtiger Produktionsstandort für südkoreanische Firmen ist. Handelskonflikte oder Technologiesanktionen zwischen beiden Staaten können die südkoreanische Wirtschaft deshalb direkt treffen."
     },
     inselLage: {
       titel: "Verkehrsgeographische Lage und Seewege",
@@ -166,18 +166,18 @@ const KOREA_DATA = {
         { label: "Flughafen Incheon", value: "Zentrales internationales Frachtdrehkreuz für hochwertige Elektronik und Express-Lieferungen" },
         { label: "Internationale Seerouten", value: "Ein großer Teil der Rohstoff- und Energieimporte wird über Seewege durch südostasiatische Meerengen transportiert" }
       ],
-      konsequenzen: "Was das bedeutet: Südkorea ist darauf angewiesen, dass internationale Handels- und Seewege frei und sicher bleiben. Bei politischen Krisen oder Blockaden auf wichtigen Schifffahrtsrouten könnte es schnell zu gravierenden Problemen bei der Rohstoff- und Energieversorgung kommen."
+      konsequenzen: "Was das bedeutet: Südkorea ist darauf angewiesen, dass internationale Handels- und Seewege frei und sicher bleiben. Bei politischen Krisen oder Blockaden auf wichtigen Schifffahrtsrouten könnte es schnell zu Problemen bei der Rohstoff- und Energieversorgung kommen."
     },
     rohstoffFalle: {
       titel: "Rohstoffarmut und industrielle Weiterverarbeitung",
       erklaerung: "Südkorea besitzt kaum eigene wirtschaftlich nutzbare Vorkommen an fossilen Energieträgern oder Metallerzen. Das Wirtschaftsmodell basiert deshalb auf dem Import von Rohstoffen und deren industrieller Weiterverarbeitung:",
       fakten: [
-        { label: "Fossile Brennstoffe", value: "Kohle, Erdöl und Erdgas müssen fast vollständig aus dem Ausland importiert werden" },
-        { label: "Energie-Importabhängigkeit", value: "Liegt bei über 90 % (nach KEEI-Statistik rund 93–94 %, wenn importierter Kernbrennstoff mitgezählt wird; bei heimischer Erzeugung inkl. Atomkraft liegt der Selbstversorgungsgrad bei rund 20 %)" },
+        { label: "Fossile Energieimporte", value: "Südkorea importiert fast 98 % seiner fossilen Energie (Öl, Gas, Kohle) (EIA)" },
+        { label: "Selbstversorgungsgrad", value: "Rechnet man die Atomkraft als eigene Energie mit, kommt das Land auf etwa 22 % Selbstversorgung. Ohne Atomkraft sind es nur rund 5 % (IEA / KEEI)" },
         { label: "Industriestandorte an der Küste", value: "Große Stahlwerke, Werften und Chemieanlagen wurden gezielt an der Küste gebaut, um Importe direkt verarbeiten zu können" },
         { label: "CO₂-Emissionen", value: "Durch die energieintensive Industrie liegen die CO₂-Emissionen bei etwa 11,3 bis 11,4 Tonnen pro Kopf (Weltbank)" }
       ],
-      konsequenzen: "Was das bedeutet: Südkorea reagiert empfindlich auf Preisschwankungen bei Energie und Rohstoffen auf den Weltmärkten. Zudem ist die Umstellung auf erneuerbare Energien und Klimaneutralität für die stark industrialisierte Wirtschaft mit hohen Kosten und großen Herausforderungen verbunden."
+      konsequenzen: "Was das bedeutet: Südkorea reagiert empfindlich auf Preisschwankungen bei Energie und Rohstoffen auf den Weltmärkten. Zudem ist die Umstellung auf erneuerbare Energien und Klimaneutralität für die stark industrialisierte Wirtschaft mit hohen Kosten und einer großen Aufgabe verbunden."
     }
   },
 
@@ -214,7 +214,7 @@ const KOREA_DATA = {
       {
         kriterium: "Bodenreform als Grundlage",
         bewertung: "Übertragbar",
-        begruendung: "Vor Beginn der Industrialisierung begrenzte Südkorea den Großgrundbesitz (3-Hektar-Grenze). Dadurch konnten viele Bauern eigenes Land bewirtschaften. Das sicherte die Existenz auf dem Land, verhinderte frühe Slumbildung in den Städten und schuf eine breitere Schicht, die Waren nachfragen konnte – eine Voraussetzung, die vielen heutigen Entwicklungsländern fehlt."
+        begruendung: "Vor Beginn der Industrialisierung begrenzte Südkorea den Großgrundbesitz (3-Hektar-Grenze). Dadurch konnten viele Bauern eigenes Land bewirtschaften. Das sicherte die Existenz auf dem Land und schuf eine breitere Schicht, die Waren nachfragen konnte – eine Voraussetzung, die vielen heutigen Entwicklungsländern fehlt."
       },
       {
         kriterium: "Priorität für Bildung und Ausbildung",
@@ -224,7 +224,7 @@ const KOREA_DATA = {
       {
         kriterium: "Genossenschaften in der Landwirtschaft",
         bewertung: "Übertragbar",
-        begruendung: "Der Bauernverband Nonghyup schützte Kleinbauern mit fairen Krediten vor der Überschuldung durch private Geldverleiher. Solche genossenschaftlichen Strukturen können auch in heutigen Entwicklungsländern helfen, bäuerliche Betriebe wirtschaftlich abzusichern."
+        begruendung: "Der Bauernverband Nonghyup bot eine gute Möglichkeit, Kleinbauern mit fairen Krediten vor privaten Kreditgebern zu schützen. Solche genossenschaftlichen Strukturen können auch in heutigen Entwicklungsländern helfen, bäuerliche Betriebe wirtschaftlich abzusichern."
       },
       {
         kriterium: "Gezielte Verwendung von Einnahmen",
@@ -236,17 +236,17 @@ const KOREA_DATA = {
       {
         kriterium: "Heutige WTO-Regeln schränken Industriepolitik ein",
         bewertung: "Stark eingeschränkt",
-        begruendung: "Einige Maßnahmen aus der damaligen Industriepolitik lassen sich heute nicht ohne Weiteres wiederholen. Die WTO verbietet beispielsweise bestimmte exportabhängige Subventionen und Local-Content-Auflagen; Zölle sind durch Obergrenzen gebunden. Auch wenn es für Entwicklungsländer Übergangsfristen und Ausnahmeregelungen gibt, ist der Handlungsspielraum heute enger als in den 1960er Jahren."
+        begruendung: "Ein Großteil der damaligen Maßnahmen lässt sich heute nicht ohne Weiteres wiederholen. Die WTO verbietet beispielsweise bestimmte exportabhängige Subventionen und Local-Content-Auflagen; Zölle sind durch Obergrenzen gebunden. Zwar gibt es für ärmere Länder Übergangsfristen und Ausnahmeregelungen, der Handlungsspielraum ist heute jedoch stark eingeschränkt."
       },
       {
         kriterium: "Geopolitische Sonderlage im Kalten Krieg",
         bewertung: "Historischer Sonderfall",
-        begruendung: "Als westlicher Bündnispartner im Kalten Krieg erhielt Südkorea erhebliche Unterstützung der USA. Die USA akzeptierten koreanische Zölle und öffneten gleichzeitig den eigenen Markt für koreanische Waren. Eine solche Sonderbehandlung erhalten heutige Entwicklungsländer in der Regel nicht."
+        begruendung: "Als westlicher Bündnispartner im Kalten Krieg erhielt Südkorea erhebliche Unterstützung der USA. Die USA akzeptierten koreanische Zölle und öffneten gleichzeitig den eigenen Markt. So eine Sonderrolle gibt es für heutige Entwicklungsländer in der Regel nicht."
       },
       {
         kriterium: "Autoritärer Staat und mangelnde Arbeitnehmerrechte",
         bewertung: "Ethisch kein Vorbild",
-        begruendung: "Der schnelle Aufstieg geschah unter Militärdiktaturen mit Streikverboten, langen Arbeitszeiten und Unterdrückung von Bürgerprotesten (wie beim Gwangju-Aufstand 1980). Ein System, das grundlegende Menschenrechte einschränkt, darf nicht als Entwicklungsziel dienen."
+        begruendung: "Der schnelle Aufstieg geschah unter Militärdiktaturen mit Streikverboten, langen Arbeitszeiten und Unterdrückung von Bürgerprotesten (wie beim Gwangju-Aufstand 1980). Ein System, das grundlegende Menschenrechte verletzt, darf nicht als Entwicklungsziel dienen."
       },
       {
         kriterium: "Starke Konkurrenz bestehender Industriestaaten",
@@ -256,7 +256,7 @@ const KOREA_DATA = {
       {
         kriterium: "Soziale und demografische Folgeprobleme",
         bewertung: "Mangelnde Nachhaltigkeit",
-        begruendung: "Die sozialen Probleme zeigen, dass wirtschaftlicher Erfolg allein nicht ausreicht. Hohe Altersarmut (~40 %), starker Leistungsdruck und die weltweit niedrigste Geburtenrate (Tiefstand 0,72 im Jahr 2023; heute rund 0,75–0,80) machen deutlich, dass die Lebensbedingungen und die Belastung der Bevölkerung rechtzeitig berücksichtigt werden müssen."
+        begruendung: "Die sozialen Probleme zeigen, dass wirtschaftlicher Erfolg allein nicht ausreicht. Hohe relative Altersarmut (~40 %), starker Leistungsdruck und die weltweit niedrigste Geburtenrate (Tiefstand 0,72 im Jahr 2023; heute rund 0,75–0,80) machen deutlich, dass die Lebensbedingungen und die Belastung der Bevölkerung rechtzeitig berücksichtigt werden müssen."
       }
     ],
     fallvergleich: [
@@ -296,7 +296,7 @@ const KOREA_DATA = {
         },
         {
           title: "Hohe Importabhängigkeit bei Energie",
-          text: "Südkorea besitzt kaum eigene förderbare Erdöl-, Gas- oder Kohlevorkommen. Fossile Energieträger müssen fast vollständig importiert werden. Die gesamte Energie-Importabhängigkeit liegt bei über 90 % (nach koreanischer KEEI-Statistik bei rund 93–94 %, wenn importiertes Uran mitgezählt wird; bei heimischer Erzeugung inkl. Atomkraft liegt der Selbstversorgungsgrad bei rund 20 %)."
+          text: "Südkorea besitzt kaum eigene förderbare Erdöl-, Gas- oder Kohlevorkommen: Südkorea importiert fast 98 % seiner fossilen Energie (Öl, Gas, Kohle). Rechnet man die Atomkraft als eigene Energie mit, kommt das Land auf etwa 22 % Selbstversorgung. Ohne Atomkraft sind es nur rund 5 %."
         },
         {
           title: "Bodenreform und Devisen aus Deutschland",
@@ -305,7 +305,7 @@ const KOREA_DATA = {
       ],
       interactiveTask: {
         heading: "Arbeitsauftrag 1: Rohstoffmangel als Entwicklungsanreiz",
-        question: "Viele rohstoffreiche Länder verharren in wirtschaftlichen Problemen (Ressourcenfluch / 'Dutch Disease'). Südkorea hingegen besitzt kaum eigene Bodenschätze und muss über 90 % seiner Energie importieren. Erkläre aus geographischer Sicht, warum der Mangel an Rohstoffen das Land dazu brachte, auf Bildung und Weiterverarbeitung zu setzen.",
+        question: "Viele rohstoffreiche Länder verharren in wirtschaftlichen Problemen (Ressourcenfluch / 'Dutch Disease'). Südkorea importiert fast 98 % seiner fossilen Energie und hat ohne Atomkraft nur rund 5 % Selbstversorgung. Erkläre aus geographischer Sicht, warum der Mangel an Rohstoffen das Land dazu brachte, auf Bildung und Weiterverarbeitung zu setzen.",
         sampleSolution: "Musterlösung: Da Südkorea keine Bodenschätze exportieren konnte, gab es keine bequemen Einnahmen aus dem Rohstoffverkauf. Um Devisen zu erwirtschaften, musste der Staat in die Ausbildung der Bevölkerung investieren, Rohstoffe aus dem Ausland importieren, diese zu höherwertigen Industrieprodukten weiterverarbeiten und wieder exportieren."
       },
       weblinks: [
@@ -402,7 +402,7 @@ const KOREA_DATA = {
         },
         {
           title: "Altersarmut, Leistungsdruck und Geburtenrate",
-          text: "Rund 40 % der über 65-Jährigen leben in relativer Altersarmut (OECD Pensions at a Glance 2025). Dazu kommen hoher Leistungsdruck an Schulen und Universitäten, eine hohe Suizidrate sowie eine der weltweit niedrigsten Geburtenraten (Tiefpunkt 0,72 im Jahr 2023; heute rund 0,75–0,80)."
+          text: "Rund 40 % der über 65-Jährigen leben in relativer Altersarmut (OECD Pensions at a Glance 2025). Dazu kommen hoher Leistungsdruck an Schulen und Universitäten, eine hohe Suizidrate sowie eine der weltweit niedrigsten Geburtenraten (Tiefstand 0,72 im Jahr 2023; heute rund 0,75–0,80)."
         },
         {
           title: "Ökologische Belastungen",
@@ -462,7 +462,7 @@ const KOREA_DATA = {
       titel: "Nachhaltigkeitsdimensionen",
       punkte: [
         "Ökonomisch: Rasanter Anstieg des Wohlstands (von unter 160 USD BIP pro Kopf auf ca. 36.200 USD heute), aber große Abhängigkeit von wenigen Großkonzernen und weltweiten Halbleitermärkten.",
-        "Ökologisch: Hoher Energieverbrauch, Import von über 90 % der Energieträger und ein hoher CO₂-Ausstoß von rund 11,3 bis 11,4 Tonnen pro Kopf.",
+        "Ökologisch: Hoher Energieverbrauch; Südkorea importiert fast 98 % seiner fossilen Energie (Selbstversorgung mit Atomkraft ca. 22 %, ohne ca. 5 %) und hat einen hohen CO₂-Ausstoß von rund 11,3 bis 11,4 Tonnen pro Kopf.",
         "Sozial: Hohe relative Altersarmut (~40 %), starker Konkurrenzdruck an Schulen und Universitäten (Hagwons) sowie eine sehr niedrige Geburtenrate.",
         "Politisch: Entwicklung von einer autoritären Entwicklungsdiktatur (bis 1987) hin zu einer stabilen Demokratie."
       ]
@@ -513,7 +513,7 @@ const KOREA_DATA = {
       "Frühe Bodenreform (1949/50) und stabiles Genossenschaftswesen in der Landwirtschaft"
     ],
     weaknesses: [
-      "Hohe Energie-Importabhängigkeit (über 90 % der Energieträger werden importiert)",
+      "Hohe Energie-Importabhängigkeit: Fast 98 % der fossilen Energie wird importiert (Selbstversorgungsgrad ohne Atomkraft nur rund 5 %)",
       "Starke Konzentration der Wirtschaft auf wenige Großkonzerne (Chaebols)",
       "Sehr niedrige Geburtenrate und rasche Überalterung der Bevölkerung",
       "Hohe relative Altersarmut (~40 %) und hoher gesellschaftlicher Leistungsdruck",
@@ -569,9 +569,9 @@ const KOREA_DATA = {
       explanation: "Gesetzliche Begrenzung des Landbesitzes auf 3 Hektar, wodurch viele abhängige Bauern eigenes Land erhielten und ländliche Armut gemindert wurde."
     },
     {
-      term: "Energie-Importabhängigkeit",
+      term: "Energieabhängigkeit & Atomkraft",
       category: "Ressourcengeographie",
-      explanation: "Südkorea importiert über 90 % seiner Energie, da es kaum eigene förderbare Erdöl-, Gas- oder Kohlevorkommen besitzt."
+      explanation: "Südkorea importiert fast 98 % seiner fossilen Energie (Öl, Gas, Kohle). Rechnet man die Atomkraft als eigene Energie mit, liegt die Selbstversorgung bei etwa 22 %, ohne Atomkraft bei nur rund 5 %."
     },
     {
       term: "Nonghyup",
@@ -600,7 +600,7 @@ const KOREA_DATA = {
       options: [
         "Das Land ist weitgehend unabhängig durch eigene Vorkommen",
         "Etwa 50 % der Energie werden importiert",
-        "Südkorea besitzt kaum eigene fossile Vorkommen und muss über 90 % seiner Energie importieren",
+        "Südkorea importiert fast 98 % seiner fossilen Energie; die Selbstversorgung liegt ohne Atomkraft bei nur rund 5 % (mit Atomkraft ca. 22 %)",
         "Südkorea exportiert große Mengen Erdöl und Gas"
       ],
       correct: 2,
@@ -675,54 +675,62 @@ const KOREA_DATA = {
   ],
 
   // -------------------------------------------------------------------
-  // 12. MATERIALIEN & QUELLEN
+  // 12. MATERIALIEN & QUELLEN (EHRLICH & TRANSPARENT ZUGEORDNET)
   // -------------------------------------------------------------------
   materialSammlung: [
     {
       kategorie: "Fachtext / Analyse",
       titel: "Bundeszentrale für politische Bildung (bpb): Südkoreas Weg zur Wirtschaftsmacht",
       autor: "Dossier Ostasien (Prof. Dr. Thomas Kalinowski / Dr. Patrick Köllner)",
-      datengehalt: "Historischer Entwicklungsweg vom Agrarland zum Industriestaat; Rolle der Fünfjahrespläne unter Park Chung-hee; Entstehung und Förderung der Chaebols; gesellschaftliche Kosten des autoritären Entwicklungsstaates.",
-      analysebeitrag: "Erklärt, dass der Aufstieg durch staatliche Wirtschaftsplanung, Exportförderung und gezielte Konzernunterstützung gesteuert wurde und nicht durch freie Marktkräfte. Wichtige Grundlage für die historische Einordnung.",
+      datengehalt: "Hintergrund zum Entwicklungsstaat: Fünfjahrespläne, Rolle der Chaebols und die gesellschaftlichen Kosten des autoritären Staates.",
+      analysebeitrag: "Erklärt den historischen Entwicklungsweg und zeigt, dass der Aufstieg durch staatliche Planung und gezielte Industrieförderung gesteuert wurde.",
       link: "https://www.bpb.de/themen/asien/ostasien/329582/suedkoreas-weg-zur-wirtschaftsmacht/"
     },
     {
       kategorie: "Statistische Primärquelle",
-      titel: "OECD: Pensions at a Glance & Länderdaten Korea",
+      titel: "OECD: Pensions at a Glance & Länderberichte Korea",
       autor: "Organisation for Economic Co-operation and Development (OECD)",
-      datengehalt: "Kennzahlen zu den sozialen Folgeproblemen: Relative Altersarmut von rund 40 % bei über 65-Jährigen; vergleichende Daten zu Gesundheit, Lebensbedingungen und Forschungsausgaben (über 5 % des BIP).",
-      analysebeitrag: "Belegt die gravierenden sozialen Folgekosten des schnellen Wachstums. Zeigt, warum wirtschaftlicher Erfolg allein kein ausreichendes Entwicklungsziel ist.",
+      datengehalt: "Zahlen zur relativen Altersarmut (rund 40 % bei über 65-Jährigen) und Ausgaben für Forschung und Entwicklung (über 5 % des BIP).",
+      analysebeitrag: "Belegt die sozialen Folgekosten des schnellen Wachstums und zeigt, dass wirtschaftlicher Erfolg allein kein ausreichendes Entwicklungsziel ist.",
       link: "https://www.oecd.org/korea"
     },
     {
       kategorie: "Wirtschafts- und Außenhandelsdaten",
-      titel: "Ministry of Trade, Industry and Energy (MOTIE) & Weltbank: Wirtschaftsdaten",
-      autor: "MOTIE Südkorea / Weltbank Open Data",
-      datengehalt: "Entwicklung des BIP pro Kopf (von 94–159 USD Anfang der 1960er-Jahre auf über 36.000 USD heute); Warenexporte über 700 Mrd. USD; hohe Bedeutung der Halbleiterexporte; China und USA als wichtigste Handelspartner.",
-      analysebeitrag: "Dokumentiert den wirtschaftlichen Aufstieg, die starke Spezialisierung auf Hightech und die Abhängigkeit von den beiden großen Absatzmärkten USA und China.",
+      titel: "Handelsministerium (MOTIE) & Weltbank",
+      autor: "Ministry of Trade, Industry and Energy (Südkorea) / Weltbank Open Data",
+      datengehalt: "BIP-Entwicklung (von 94–159 USD Anfang der 1960er-Jahre auf über 36.000 USD heute); Warenexporte über 700 Mrd. USD; hohe Bedeutung von Halbleitern; China und USA als wichtigste Handelspartner.",
+      analysebeitrag: "Dokumentiert den wirtschaftlichen Aufstieg und die Einbindung in globale Wertschöpfungsketten.",
       link: "https://english.motie.go.kr"
     },
     {
+      kategorie: "Unternehmenskonzentration",
+      titel: "Fair Trade Commission (KFTC) / Berichterstattung Korea Times",
+      autor: "Korea Fair Trade Commission",
+      datengehalt: "Gesamtumsatz der vier größten Konzerngruppen (Samsung, SK, Hyundai, LG) im Verhältnis zum nominalen BIP (rund 40,8 % im Jahr 2023).",
+      analysebeitrag: "Zeigt die starke Marktkonzentration der südkoreanischen Wirtschaft auf wenige Großkonzerne (Chaebols).",
+      link: "https://www.koreatimes.co.kr"
+    },
+    {
       kategorie: "Raumwirtschaft & Logistik",
-      titel: "Busan Port Authority (BPA) & Lloyd's List: Hafendaten",
-      autor: "Hafenbehörde Busan / Lloyd's List",
-      datengehalt: "Containerumschlag am Hafen Busan (gehört zu den weltweit größten Containerhäfen); Nahezu der gesamte Güteraußenhandel wird über See abgewickelt.",
-      analysebeitrag: "Belegt die verkehrsgeographische Insellage Südkoreas durch die geschlossene Landgrenze nach Nordkorea und die enorme Abhängigkeit von sicheren Seewegen.",
+      titel: "Hafenbehörde Busan & Lloyd's List: Hafendaten",
+      autor: "Busan Port Authority (BPA) / Lloyd's List",
+      datengehalt: "Containerumschlag am Hafen Busan; Bedeutung für den Seeverkehr (nahezu der gesamte Güteraußenhandel läuft über See).",
+      analysebeitrag: "Belegt die verkehrsgeographische Insellage Südkoreas und die Abhängigkeit von funktionierenden Seewegen.",
       link: "https://www.busanpa.com"
     },
     {
       kategorie: "Raumanalyse & Demografie",
-      titel: "Statistics Korea (KOSIS): Bevölkerungs- und Raumdaten",
-      autor: "Nationales Statistikamt Südkoreas",
-      datengehalt: "Bevölkerungskonzentration: Mehr als 50 % der Bevölkerung leben im Großraum Seoul (Sudogwon); Geburtenrate auf sehr niedrigem Niveau (Tiefstand 0,72 im Jahr 2023; heute rund 0,75–0,80).",
-      analysebeitrag: "Dokumentiert das ausgeprägte Zentrum-Peripherie-Gefälle zwischen der Hauptstadtregion und dem ländlichen Raum sowie die demografische Krise.",
+      titel: "Nationales Statistikamt Südkoreas (Statistics Korea / KOSIS)",
+      autor: "Statistics Korea",
+      datengehalt: "Bevölkerungsverteilung: Mehr als 50 % der Bevölkerung leben im Großraum Seoul (Sudogwon); Geburtenrate (Tiefstand 0,72 im Jahr 2023; heute rund 0,75–0,80).",
+      analysebeitrag: "Dokumentiert das Zentrum-Peripherie-Gefälle sowie die demografische Entwicklung.",
       link: "https://kosis.kr/eng/"
     },
     {
       kategorie: "Welthandelsordnung",
-      titel: "WTO Legal Texts: Subventions- und Investitionsregeln",
-      autor: "Welthandelsorganisation (WTO)",
-      datengehalt: "Regelungen zu exportabhängigen Subventionen (SCM-Abkommen) und Auflagen zur Nutzung heimischer Vorprodukte (TRIMs-Abkommen); Ausnahmeregelungen und Übergangsfristen für Entwicklungsländer.",
+      titel: "Welthandelsorganisation (WTO Legal Texts)",
+      autor: "World Trade Organization (Genf)",
+      datengehalt: "Regelungen zu exportabhängigen Subventionen (SCM) und Local-Content-Auflagen (TRIMs); Ausnahmeregelungen und Übergangsfristen für Entwicklungsländer.",
       analysebeitrag: "Zeigt die rechtlichen Grenzen auf, die heutigen Entwicklungsländern bei der Wiederholung historischer Schutzzoll- und Subventionspolitiken gesetzt sind.",
       link: "https://www.wto.org/english/docs_e/legal_e/legal_e.htm"
     }

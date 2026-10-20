@@ -380,9 +380,14 @@ function initStations() {
             <span class="task-save-status" id="saveStatus_${st.id}">
               ${currentResponse ? "Gespeichert" : "Eingabe wird automatisch gesichert"}
             </span>
-            <button class="solution-toggle-btn" id="toggleSolution_${st.id}">
-              Musterlösung anzeigen
-            </button>
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <button class="clear-station-btn" id="clearStation_${st.id}" type="button" title="Eingabe für diese Station leeren">
+                Eingabe löschen
+              </button>
+              <button class="solution-toggle-btn" id="toggleSolution_${st.id}">
+                Musterlösung anzeigen
+              </button>
+            </div>
           </div>
 
           <div class="sample-solution-box" id="solutionBox_${st.id}">
@@ -396,6 +401,7 @@ function initStations() {
     // Event Listener für Textarea Auto-Save
     const textarea = document.getElementById(`stationTextarea_${st.id}`);
     const statusEl = document.getElementById(`saveStatus_${st.id}`);
+    const clearBtn = document.getElementById(`clearStation_${st.id}`);
     const solutionBtn = document.getElementById(`toggleSolution_${st.id}`);
     const solutionBox = document.getElementById(`solutionBox_${st.id}`);
 
@@ -403,6 +409,16 @@ function initStations() {
       textarea.addEventListener("input", () => {
         saveStationResponse(st.id, textarea.value);
         if (statusEl) statusEl.textContent = "Gespeichert";
+      });
+    }
+
+    if (clearBtn && textarea) {
+      clearBtn.addEventListener("click", () => {
+        if (confirm("Möchtest du die Eingabe für diese Station wirklich leeren?")) {
+          textarea.value = "";
+          saveStationResponse(st.id, "");
+          if (statusEl) statusEl.textContent = "Gelöscht";
+        }
       });
     }
 
