@@ -1600,6 +1600,138 @@ a:hover {
   margin: 0 auto 1.5rem;
 }
 
+/* Vollständiger Fragenkatalog / Klausurvorbereitung */
+.quiz-print-sheet {
+  display: none;
+  margin-top: 1.75rem;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1.5rem;
+}
+
+.quiz-print-sheet.sheet-visible {
+  display: block;
+  animation: fadeIn 0.25s ease;
+}
+
+.print-sheet-header {
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--gw-blue);
+}
+
+.print-questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.print-question-item {
+  background: var(--bg-card-alt);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-card);
+  padding: 1.15rem;
+}
+
+.print-question-title {
+  font-size: 0.96rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-main);
+  line-height: 1.45;
+}
+
+.print-q-num {
+  font-weight: 700;
+  color: var(--gw-blue);
+}
+
+[data-theme="dark"] .print-q-num {
+  color: #93c5fd;
+}
+
+.print-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.print-option-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.print-checkbox {
+  font-family: monospace;
+  font-weight: 700;
+  color: var(--gw-teal-dark);
+}
+
+.print-opt-letter {
+  font-weight: 700;
+  min-width: 1.2rem;
+}
+
+.print-notes-space {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--border-color);
+}
+
+.print-notes-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.print-rule-line {
+  border-bottom: 1px dashed var(--border-color);
+  height: 1.5rem;
+  margin-top: 0.25rem;
+}
+
+.print-solution-key {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  background: rgba(33, 58, 143, 0.04);
+  border: 1px solid var(--gw-blue);
+  border-radius: var(--radius-card);
+}
+
+.print-solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.print-solution-item {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.print-solution-item strong {
+  display: block;
+  color: var(--gw-blue);
+  margin-bottom: 0.2rem;
+}
+
+[data-theme="dark"] .print-solution-item strong {
+  color: #93c5fd;
+}
+
+.material-data-box {
+  background: rgba(39, 176, 163, 0.08);
+  border-left: 3px solid var(--gw-teal);
+  padding: 0.55rem 0.85rem;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.83rem;
+  margin: 0.65rem 0;
+  color: var(--text-main);
+  line-height: 1.45;
+}
+
 /* -------------------------------------------------------------------
    13. SEKTION 8: MATERIALIEN & QUELLEN
    ------------------------------------------------------------------- */
@@ -1842,20 +1974,32 @@ a:hover {
 @media print {
   .site-header,
   .main-tabs-bar,
-  .interactive-task-card,
-  .quiz-card,
   .export-banner,
   .site-footer,
   .toast,
   .video-frame-wrap,
-  .header-actions {
+  .header-actions,
+  .local-server-hint,
+  #quizActiveWrap,
+  #quizResults,
+  .quiz-progress-track,
+  .quiz-actions-bar,
+  .copy-prompt-btn,
+  .task-btn-save,
+  .task-btn-solution,
+  .task-solution-box,
+  .material-link-btn,
+  .btn-video-external,
+  .video-library-grid,
+  .task-textarea {
     display: none !important;
   }
 
   body {
     background: #ffffff !important;
     color: #000000 !important;
-    font-size: 10.5pt;
+    font-size: 10pt;
+    line-height: 1.45;
   }
 
   .main-content-wrap {
@@ -1867,12 +2011,60 @@ a:hover {
   .content-section {
     display: block !important;
     page-break-after: always;
-    margin-bottom: 2cm !important;
+    margin-bottom: 1.5cm !important;
   }
 
-  .abstract-card, .spatial-card, .timeline-card, .blueprint-card, .swot-wrapper {
+  .abstract-card, .spatial-card, .timeline-card, .blueprint-card, .swot-wrapper, .quiz-card {
     box-shadow: none !important;
+    border: 1px solid #bbb !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .quiz-card {
+    display: block !important;
+    padding: 1.25rem !important;
+  }
+
+  .quiz-print-sheet {
+    display: block !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    border-top: none !important;
+  }
+
+  .print-question-item {
+    page-break-inside: avoid;
+    background: #ffffff !important;
     border: 1px solid #ccc !important;
+    margin-bottom: 0.85rem !important;
+    padding: 0.85rem !important;
+  }
+
+  .print-solution-key {
+    page-break-before: always;
+    background: #ffffff !important;
+    border: 1px solid #000 !important;
+    margin-top: 1.5rem !important;
+    padding: 1rem !important;
+  }
+
+  .interactive-task-card {
+    display: block !important;
+    border: 1px dashed #666 !important;
+    background: #ffffff !important;
+    page-break-inside: avoid;
+    margin-top: 1rem !important;
+    padding: 1rem !important;
+  }
+
+  .interactive-task-card::after {
+    content: "Antwort / Notizen für die Gruppenarbeit:\A\A_________________________________________________________________________________\A\A_________________________________________________________________________________";
+    white-space: pre-wrap;
+    display: block;
+    margin-top: 1rem;
+    font-size: 9pt;
+    color: #555;
   }
 }
 

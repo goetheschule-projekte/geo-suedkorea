@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initSwot();
   initFlashcards();
   initQuiz();
+  initQuizPrintSheet();
   initMaterialsAndPrompts();
   initGroupWorksheetExport();
   checkProtocolHint();
@@ -211,10 +212,10 @@ function initSpatialAnalysis() {
 
   const cards = [
     { key: "disparitaeten", data: ra.disparitaeten },
+    { key: "wertschöpfungsketten", data: ra.wertschöpfungsketten || ra.welthandelStruktur },
     { key: "inselLage", data: ra.inselLage },
-    { key: "rohstoffFalle", data: ra.rohstoffFalle },
-    { key: "welthandelStruktur", data: ra.welthandelStruktur }
-  ];
+    { key: "rohstoffFalle", data: ra.rohstoffFalle }
+  ].filter(c => c.data);
 
   container.innerHTML = cards.map(c => `
     <div class="spatial-card">
@@ -638,6 +639,69 @@ function initQuiz() {
 }
 
 /* -------------------------------------------------------------------
+   13b. FRAGENKATALOG & DRUCKANSICHT (QUIZ)
+   ------------------------------------------------------------------- */
+function initQuizPrintSheet() {
+  const container = document.getElementById("printQuestionsList");
+  if (!container || !window.KOREA_DATA || !window.KOREA_DATA.quiz) return;
+
+  const questions = window.KOREA_DATA.quiz;
+  const letters = ["A", "B", "C", "D"];
+
+  let html = questions.map((q, qIdx) => `
+    <div class="print-question-item">
+      <div class="print-question-title">
+        <span class="print-q-num">Frage ${qIdx + 1}:</span> ${escapeHtml(q.question)}
+      </div>
+      <div class="print-options-list">
+        ${q.options.map((opt, oIdx) => `
+          <div class="print-option-row">
+            <span class="print-checkbox">[  ]</span>
+            <span class="print-opt-letter">${letters[oIdx]})</span>
+            <span class="print-opt-text">${escapeHtml(opt)}</span>
+          </div>
+        `).join("")}
+      </div>
+      <div class="print-notes-space">
+        <span class="print-notes-label">Geographische Begründung / Fachnotizen:</span>
+        <div class="print-rule-line"></div>
+      </div>
+    </div>
+  `).join("");
+
+  html += `
+    <div class="print-solution-key">
+      <h4 class="titlebold" style="color: var(--gw-blue); margin-bottom: 0.75rem;">Lösungsschlüssel & Begründungen (Abitur-Standard)</h4>
+      <div class="print-solutions-grid">
+        ${questions.map((q, qIdx) => `
+          <div class="print-solution-item">
+            <strong>Frage ${qIdx + 1}: Option ${letters[q.correct]}</strong>
+            <p>${escapeHtml(q.explanation)}</p>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+  `;
+
+  container.innerHTML = html;
+
+  const toggleBtn = document.getElementById("quizToggleSheetBtn");
+  const sheet = document.getElementById("quizPrintSheet");
+  if (toggleBtn && sheet) {
+    toggleBtn.addEventListener("click", () => {
+      const isVisible = sheet.classList.contains("sheet-visible");
+      if (isVisible) {
+        sheet.classList.remove("sheet-visible");
+        toggleBtn.textContent = "Fragenkatalog für Klausur einblenden";
+      } else {
+        sheet.classList.add("sheet-visible");
+        toggleBtn.textContent = "Fragenkatalog ausblenden";
+      }
+    });
+  }
+}
+
+/* -------------------------------------------------------------------
    14. MATERIALIEN & QUELLEN
    ------------------------------------------------------------------- */
 function initMaterialsAndPrompts() {
@@ -650,11 +714,13 @@ function initMaterialsAndPrompts() {
       <div class="material-entry-card">
         <div class="material-category">${escapeHtml(m.kategorie)}</div>
         <h4 class="material-title">${escapeHtml(m.titel)}</h4>
-        <div class="material-meta-row"><strong>Autor/Quelle:</strong> ${escapeHtml(m.autor)}</div>
-        <p class="material-desc"><strong>Fachliche Relevanz:</strong> ${escapeHtml(m.relevanz)}</p>
-        <p class="material-desc"><strong>Erkenntniswert:</strong> ${escapeHtml(m.erkenntnis)}</p>
+        <div class="material-meta-row"><strong>Autor / Herausgeber:</strong> ${escapeHtml(m.autor)}</div>
+        ${m.datengehalt ? `<div class="material-data-box"><strong>Konkrete Primärdaten:</strong> ${escapeHtml(m.datengehalt)}</div>` : ""}
+        ${m.analysebeitrag ? `<p class="material-desc"><strong>Beitrag zur Raumanalyse & Leitfrage:</strong> ${escapeHtml(m.analysebeitrag)}</p>` : ""}
+        ${m.relevanz ? `<p class="material-desc"><strong>Fachliche Relevanz:</strong> ${escapeHtml(m.relevanz)}</p>` : ""}
+        ${m.erkenntnis ? `<p class="material-desc"><strong>Erkenntniswert:</strong> ${escapeHtml(m.erkenntnis)}</p>` : ""}
         <a href="${m.link}" target="_blank" rel="noopener noreferrer" class="material-link-btn">
-          Quelle öffnen
+          Quelle öffnen ↗
         </a>
       </div>
     `).join("");

@@ -309,12 +309,18 @@
             <span class="quiz-badge">Geographie Q3</span>
           </div>
 
-          <div class="quiz-question-box" id="quizQuestion">Frage wird geladen...</div>
-          <div class="quiz-options-grid" id="quizOptions"></div>
+          <div class="quiz-question-box" id="quizQuestion">Warum wies Nordkorea nach dem Waffenstillstand 1953 zunächst bessere industrielle Startbedingungen auf als Südkorea?</div>
+          <div class="quiz-options-grid" id="quizOptions">
+            <button class="quiz-option-btn" data-index="0">Weil die Kolonialmacht Japan Wasserkraftwerke und Schwerindustrie im mineralreichen Norden gebaut hatte und die Sowjetunion half</button>
+            <button class="quiz-option-btn" data-index="1">Weil Südkorea keine Verfassung besaß</button>
+            <button class="quiz-option-btn" data-index="2">Weil Nordkorea große Erdölreserven besaß</button>
+            <button class="quiz-option-btn" data-index="3">Weil die USA Südkorea keinerlei Wiederaufbauhilfe leisteten</button>
+          </div>
           <div class="quiz-feedback-box" id="quizFeedback"></div>
 
           <div class="quiz-actions-bar">
-            <button class="btn-primary" id="quizNextBtn">Nächste Frage</button>
+            <button class="btn-primary" id="quizNextBtn" style="display: none;">Nächste Frage</button>
+            <button class="btn-secondary" id="quizToggleSheetBtn" type="button">Fragenkatalog für Klausur einblenden</button>
           </div>
         </div>
 
@@ -323,6 +329,17 @@
           <div class="quiz-score-display" id="finalScore">0 / 8</div>
           <p class="quiz-score-text" id="finalScoreFeedback"></p>
           <button class="btn-primary" id="quizRestartBtn">Quiz wiederholen</button>
+        </div>
+
+        <!-- VOLLSTÄNDIGER FRAGENKATALOG (FÜR DRUCK & KLAUSURVORBEREITUNG) -->
+        <div class="quiz-print-sheet" id="quizPrintSheet">
+          <div class="print-sheet-header">
+            <h3 class="titlebold" style="color: var(--gw-blue); margin-bottom: 0.5rem;">Fragenkatalog zur Klausurvorbereitung: Südkoreas Wirtschaftsgeographie</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">
+              KCGO Geographie Q3 • 8 thematische Prüfungsfragen zu Ursachen, Disparitäten, Strukturwandel und der Leitfrage:
+            </p>
+          </div>
+          <div class="print-questions-list" id="printQuestionsList"></div>
         </div>
       </div>
     </section>
@@ -391,6 +408,8 @@
       </div>
     </div>
   </footer>
+
+  <div id="siteToast" class="toast"></div>
 
   <!-- ===================================================================
        SCRIPTE
