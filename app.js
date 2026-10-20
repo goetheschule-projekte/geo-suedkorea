@@ -85,8 +85,12 @@ function initTopTabs() {
     tabButtons.forEach(btn => {
       const isActive = btn.dataset.tab === tabId;
       btn.classList.toggle("active", isActive);
-      if (isActive && window.innerWidth <= 768) {
-        btn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      if (isActive) {
+        const navContainer = document.getElementById("mainTabsBar");
+        if (navContainer && navContainer.scrollWidth > navContainer.clientWidth) {
+          const targetLeft = btn.offsetLeft - (navContainer.clientWidth / 2) + (btn.offsetWidth / 2);
+          navContainer.scrollTo({ left: targetLeft, behavior: "smooth" });
+        }
       }
     });
   }
@@ -324,9 +328,12 @@ function initStations() {
         activeStationId = btn.dataset.stationId;
         renderNav();
         renderActiveStation();
-        if (window.innerWidth <= 768) {
+        if (tabsContainer && tabsContainer.scrollWidth > tabsContainer.clientWidth) {
           const activeBtn = tabsContainer.querySelector(`.station-pill-btn[data-station-id="${activeStationId}"]`);
-          if (activeBtn) activeBtn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+          if (activeBtn) {
+            const targetLeft = activeBtn.offsetLeft - (tabsContainer.clientWidth / 2) + (activeBtn.offsetWidth / 2);
+            tabsContainer.scrollTo({ left: targetLeft, behavior: "smooth" });
+          }
         }
       });
     });
