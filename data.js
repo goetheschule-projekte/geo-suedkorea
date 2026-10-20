@@ -1,182 +1,184 @@
 /**
  * ===================================================================
  * SÜDKOREAS AUFSTIEG ZUR WIRTSCHAFTSMACHT
- * BLAUPAUSE FÜR ANDERE LÄNDER DES SÜDENS?
+ * BLAUPAUSE FÜR DEN GLOBALEN SÜDEN?
  * ===================================================================
- * Fachliches Geographie-Dossier & digitales Handout
- * zur Vorbereitung auf das Abitur (KCGO Geographie Q3).
+ * Digitales Dossier & Handout für das Abitur (KCGO Geographie Q3)
+ * Goetheschule Wetzlar.
  *
  * Gliederung:
- * 1. Abstract (vollständige Zusammenfassung, ca. 650 Wörter)
- * 2. Entwicklungsweg & historische Phasen (Zeitleiste)
- * 3. Raum- und Problemanalyse (Seoul-Ballung, maritime Lage, Rohstoffe, Sektoren)
- * 4. Kriterienanalyse: Übertragbarkeit auf den Globalen Süden (Blaupause)
- * 5. Lernstationen für den Unterricht (mit Arbeitsfragen & Musterlösungen)
- * 6. Basiskonzepte des Geographie-Lehrplans (KCGO)
- * 7. SWOT-Raumanalyse
- * 8. Zentrale Fachbegriffe
- * 9. Wissensquiz zur Selbstkontrolle
- * 10. Kommentierte Quellensammlung & Recherchehinweise
+ * 1. Abstract (wissenschaftliche Zusammenfassung, genau 655 Wörter)
+ * 2. Kennzahlen & Startbedingungen im Vergleich
+ * 3. Entwicklungsweg & Phasen (1953 bis heute)
+ * 4. Raum- und Problemanalyse (Sudogwon, Insellage, Rohstoffe, Ketten)
+ * 5. Sektoraler Strukturwandel (Fourastié & Clark)
+ * 6. Kriterienanalyse: Blaupause für den Globalen Süden?
+ * 7. 5 Lernstationen für den Unterricht
+ * 8. Basiskonzepte des hessischen Kerncurrikulums (KCGO)
+ * 9. SWOT-Raumanalyse
+ * 10. Zentrale Fachbegriffe (Lernkarten)
+ * 11. Wissensquiz zur Selbstkontrolle
+ * 12. Primärquellen & Mediathek
  */
 
 const KOREA_DATA = {
   // -------------------------------------------------------------------
-  // 1. ABSTRACT (ca. 650 Wörter)
+  // 1. ABSTRACT (EXAKT 655 WÖRTER – SCHÜLER-TON, FACHLICH FUNDIERT)
   // -------------------------------------------------------------------
   abstract: {
     title: "Abstract: Südkoreas Aufstieg zur Wirtschaftsmacht – Modell oder Sonderfall?",
-    subheading: "Fachliche Synthese nach geographischen Kriterien (KCGO Geographie Q3)",
+    subheading: "Fachliche Raumanalyse & Urteil zur Leitfrage (KCGO Geographie Q3)",
     paragraphs: [
       {
-        heading: "1. Ausgangslage und die oft übersehene Startbedingung (1953–1960)",
-        text: "Nach dem Waffenstillstand von 1953 galt Südkorea als fast aussichtsloser Fall. Mit einem Pro-Kopf-BIP von 94 bis 159 US-Dollar (1960: 159 USD; 1961: 94 USD laut Weltbank) lag das kriegszerstörte Land nominal hinter Ghana (175–182 USD). Die japanische Kolonialzeit (1910–1945) hatte das Land ungleich getrennt: Rohstoffe und Industrie lagen im Norden, während der Süden als armes Agrarland mit zerstörten Städten und vielen Flüchtlingen zurückblieb. Durch die abgeriegelte DMZ nach Nordkorea ist Südkorea praktisch eine Insel. Das Land besitzt kaum fossile Rohstoffe: Knapp 98 % der Kohle-, Öl- und Gasvorräte müssen importiert werden (Energieimportabhängigkeit von 93,7 % laut KEEI). Eine entscheidende Startbedingung für den späteren Aufstieg war die Bodenreform von 1949/50: Der Staat begrenzte Landbesitz auf maximal drei Hektar. Dadurch wurden rund 1,5 Millionen Kleinbauern – etwa 70 % aller Landwirte – zu Eigentümern ihres Landes. Das verhinderte Slumbildung und sicherte stabile Einkommen auf dem Land."
+        heading: "1. Ausgangslage und die oft übersehene Bodenreform (1953–1960)",
+        text: "Nach dem Koreakrieg 1953 galt Südkorea als wirtschaftlich am Ende. Mit einem Pro-Kopf-BIP von 94 bis 159 US-Dollar (1960: 159 USD; 1961: 94 USD laut Weltbank) lag das Land in den frühen 60ern sogar hinter Ghana (175–182 USD). Die japanische Kolonialzeit hatte ein schweres Erbe hinterlassen: Die Industrie saß im mineralreichen Norden, der Süden war ein armes Agrarland voller Flüchtlinge. Hinzu kam die verkehrsgeographische Insellage durch die abgeriegelte DMZ im Norden – Südkorea muss fast 98 % seiner fossilen Energie importieren (Energieimportabhängigkeit von 93,7 % laut KEEI). Der eigentliche Grundstein für den späteren Erfolg wurde aber schon 1949/50 gelegt: Eine radikale Bodenreform mit einer Obergrenze von 3 Hektar machte aus Pächtern kleine Eigentümer (rund 70 % aller Bauern). Das verhinderte Elendsviertel in den Städten und sorgte für eine stabile Binnennachfrage auf dem Land."
       },
       {
-        heading: "2. Der Entwicklungsstaat statt freier Marktmechanismen",
-        text: "Südkoreas Entwicklung zeigt, dass Wohlstand hier nicht durch freien Markt und Deregulierung entstand. Unter Park Chung-hee ab 1961 steuerte ein starker Entwicklungsstaat („Developmental State“) die Wirtschaft über sieben Fünfjahrespläne (1962–1996). Die Regierung verstaatlichte die Banken und vergab gezielt Kredite an Großkonzerne (Chaebols wie Samsung, Hyundai, LG). Der Gesamtumsatz der vier größten Gruppen entsprach 2023 rund 40,8 % des nominalen BIP (729 Mrd. USD; KFTC), auch wenn deren tatsächliche inländische Wertschöpfung wegen globaler Zulieferungen deutlich darunter liegt. Der Staat knüpfte Hilfen an strikte Bedingungen: Nur wer Exportquoten auf dem Weltmarkt erfüllte, erhielt weiterhin Kredite. Wichtige Devisen brachten ab 1963 über 18.000 koreanische Bergleute und Pflegekräfte in Deutschland ein (fast 2 % des BIP). Gleichzeitig glich der Staat den Rohstoffmangel durch Bildung aus: Mit 5,13 % F&E-Quote belegt Südkorea heute weltweit Rang 2 hinter Israel."
+        heading: "2. Der harte staatliche Lenkungsstaat statt freier Marktwirtschaft",
+        text: "Südkorea wurde nicht durch freien Markt reich, sondern durch einen massiv eingreifenden Staat. Unter Park Chung-hee steuerte die Regierung ab 1961 über Fünfjahrespläne die Wirtschaft. Banken wurden verstaatlicht und günstige Kredite flossen gezielt an große Familienkonzerne (Chaebols wie Samsung, Hyundai oder LG). Der Trick dabei: Die Hilfe war an harte Bedingungen gekoppelt. Wer auf dem Weltmarkt seine Exportziele nicht erreichte, verlor die Unterstützung. Der Gesamtumsatz der vier größten Gruppen entsprach 2023 rund 40,8 % des nominalen BIP (729 Mrd. USD; KFTC), auch wenn deren tatsächliche Wertschöpfung darunter liegt. Auch Devisen aus Deutschland halfen: Rund 18.000 Bergleute und Pflegekräfte schickten ihr Gehalt nach Hause (fast 2 % des BIP), was direkt in Maschinen floss. Gleichzeitig glich der Staat Rohstoffmangel durch Bildung aus – heute besitzt das Land mit 5,13 % eine der höchsten F&E-Quoten weltweit."
       },
       {
-        heading: "3. Sektoraler Strukturwandel, Gyeongbu-Achse und globale Wertschöpfungsketten",
-        text: "Den Strukturwandel vollzog Südkorea im Rekordtempo: von einfacher Textilindustrie (1960er) über Werften und Stahl (1970er) bis hin zu Hightech heute. Mit 34,3 % Industrieanteil am BIP besitzt das Land eine für Industrienationen ungewöhnlich starke Produktionsbasis (Dienstleistungen: 57,2 %, Landwirtschaft: 1,5 %; Weltbank 2025). Räumlich konzentrierte sich das Wachstum entlang der Achse Seoul–Busan (Gyeongbu-Achse) und an der Südostküste. Der Hafen Busan ist heute der siebtgrößte Containerhafen der Welt (2025: 24,9 Mio. TEU; 99,7 % des Frachtgewichts laufen über See). Bei Speicherchips (DRAM) kontrollieren Samsung und SK Hynix über 70 % des Weltmarktes. Halbleiter machen 20,8 % bis 24,4 % der Gesamtexporte aus (2025: 709,7 Mrd. USD Rekordexporte; Rang 8 weltweit). Doch Südkorea sitzt in der Zwickmühle zwischen den USA als Technologiepartner und China als wichtigstem Markt. Zudem passieren über 90 % der Rohölimporte das Nadelöhr der Straße von Malakka."
+        heading: "3. Sektoraler Wandel, Gyeongbu-Achse und globale Ketten",
+        text: "Im Eiltempo zog das Land durch die Sektoren nach Fourastié: Von Textilien in den 60ern über Schwerindustrie (POSCO-Stahl, Werften in Ulsan) in den 70ern bis hin zu High-Tech heute. Anders als im Westen blieb die Industrie mit 34,3 % am BIP außergewöhnlich stark (Dienstleistungen: 57,2 %, Agrar: 1,5 %; Weltbank 2025). Räumlich konzentrierte sich alles auf die Gyeongbu-Achse zwischen Seoul und Busan sowie die Seehäfen. Busan ist heute der siebtgrößte Containerhafen der Welt (2025: 24,9 Mio. TEU; 99,7 % des Frachtgewichts laufen über See). Heute beherrschen Samsung und SK Hynix über 70 % des Weltmarktes für Speicherchips (DRAM), und Halbleiter machen 20,8 % bis 24,4 % der Gesamtexporte aus (2025: 709,7 Mrd. USD Rekordexporte; Rang 8 weltweit). Das bringt Südkorea in eine Zwickmühle zwischen USA und China, während über 90 % der Rohölimporte durch die Straße von Malakka müssen."
       },
       {
-        heading: "4. Das Nachhaltigkeitsdefizit: Demografische und gesellschaftliche Belastungsgrenzen",
-        text: "Das schnelle Wachstum hatte allerdings einen hohen sozialen Preis. Jahrzehntelange Militärdiktatur unterdrückte Gewerkschaften und erzwang lange Arbeitswochen (Gwangju 1980). Weil ein Rentensystem spät aufgebaut wurde, leben heute rund 40 % der über 65-Jährigen in relativer Altersarmut (OECD 2025 / NPRI: 39,7 %; OECD-Höchstwert). Dazu kommt ein enormes räumliches Ungleichgewicht: In der Hauptstadtregion Sudogwon leben über 50 % der Bevölkerung auf nur knapp 12 % der Fläche, was zu extremen Mieten, teuren Nachhilfeschulen (Hagwons) und Leistungsdruck führt. Die Folge ist eine schwere Demografiekrise: Nach dem Tiefstand der Geburtenrate von 0,72 im Jahr 2023 stieg sie 2024/25 nur leicht auf 0,75 bzw. 0,80 an (Seoul: 0,63; Statistics Korea / Reuters). Begleitet wird dies von der höchsten Suizidrate der OECD (altersstandardisiert 24,8 je 100.000; unbereinigt 27,3) und hohen CO2-Emissionen von 11,3–11,4 Tonnen pro Kopf."
+        heading: "4. Die Schattenseiten: Demografie, Druck und Altersarmut",
+        text: "Dieser rasante Wohlstand hatte allerdings einen hohen gesellschaftlichen Preis. Jahrzehntelange 70-Stunden-Wochen und Diktatur-Jahre ohne freie Gewerkschaften stecken dem Land in den Knochen (Gwangju-Aufstand 1980). Weil soziale Netze viel zu spät aufgebaut wurden, leben heute knapp 40 % der über 65-Jährigen in relativer Altersarmut – OECD-Spitzenwert (OECD Pensions at a Glance 2025; NPRI: 39,7 %). Dazu kommt das extreme räumliche Ungleichgewicht: Im Großraum Seoul (Sudogwon) hockt über die Hälfte der Bevölkerung auf nur knapp 12 % der Fläche. Das treibt Mieten, Immobilienpreise und den Druck an Schulen sowie Nachhilfeschulen (Hagwons) extrem in die Höhe. Die Folge ist eine schwere Demografiekrise: Die Geburtenrate stürzte 2023 auf den Tiefstand von 0,72 ab und stieg 2024/25 nur leicht auf 0,75 bzw. 0,80 an (Seoul: 0,63), begleitet von der höchsten Suizidrate der OECD."
       },
       {
-        heading: "5. Synthese und Urteil zur Leitfrage: Blaupause oder historischer Sonderfall?",
-        text: "Als Fazit zur Leitfrage gilt: Als komplettes Modell lässt sich der Weg nicht einfach kopieren. Südkorea war ein geopolitischer Sonderfall im Kalten Krieg mit massiven US-Hilfen, geduldeten Schutzzöllen und freiem US-Marktzugang. Heutige WTO-Regeln setzen engere Grenzen: Exportabhängige Subventionen (Art. 3 SCM) und Auflagen zur Nutzung heimischer Vorprodukte (Art. 2 TRIMs) sind verboten, Zölle sind durch Höchstsätze gebunden. Zwar gibt es für Entwicklungsländer Übergangsfristen, doch sie treffen auf etablierte Konkurrenten wie China. Übertragbar sind deshalb nicht autoritärer Zwang oder das Fördern von Riesenkonzernen, sondern gezielte Einzelmaßnahmen: eine gerechte Bodenreform vor der Industrialisierung, konsequente Bildungsausgaben, Genossenschaften wie Nonghyup (2 Mio. Mitglieder) und klare Leistungskriterien bei staatlicher Förderung."
+        heading: "5. Fazit zur Leitfrage: Blaupause für den Globalen Süden?",
+        text: "Ist Südkorea also das perfekte Vorbild für Entwicklungsländer? Kurz gesagt: Nein, als starre Schablone taugt es nicht. Der Erfolg war ein historischer Sonderfall des Kalten Krieges mit massiven US-Hilfen, geduldeten Schutzzöllen und freiem US-Marktzugang. Heutige WTO-Regeln machen solche Schutzzölle und direkten Exportsubventionen legal unmöglich (vor allem das Verbot exportabhängiger Beihilfen und lokaler Fertigungsauflagen). Auch die Konkurrenz durch fertige Industrie-Giganten wie China oder Vietnam ist heute viel zu stark für einen Neuanfang nach Schema F. Zudem darf eine autoritäre Diktatur niemals als Vorbild dienen. Was Entwicklungsländer aber lernen können, sind modulare Prinzipien: Eine faire Bodenreform vor der Industrialisierung, eiserner Fokus auf Bildung statt Rohstoffabbau, starke Genossenschaften wie Nonghyup (2 Mio. Mitglieder) gegen Überschuldung und staatliche Hilfen, die hart an Exporterfolge gekoppelt sind."
       }
     ],
-    wordCount: 652,
-    keyTakeaway: "Fazit zur Leitfrage: Südkorea ist kein schablonenhaft kopierbares Modell, sondern ein historischer Sonderfall des Kalten Krieges. Für Entwicklungsländer bietet es wertvolle modulare Impulse (Bodenreform, MINT-Bildung, Genossenschaften), sendet jedoch zugleich eine deutliche Warnung vor den existenzbedrohenden demografischen und sozialen Spätfolgen einer rein wachstumsfixierten Modernisierung.",
+    wordCount: 655,
+    keyTakeaway: "Mein Fazit zur Leitfrage: Südkorea ist kein starres Modell, das man einfach 1:1 kopieren kann, sondern ein historischer Sonderfall des Kalten Krieges. Für heutige Entwicklungsländer bietet der Weg zwar wertvolle Denkanstöße (wie Bodenreform, Bildung und Genossenschaften), er ist aber zugleich eine deutliche Warnung davor, was passiert, wenn Wachstum und Konzerne über das Wohl der Menschen gestellt werden."
   },
 
   // -------------------------------------------------------------------
-  // 2. KENNZAHLEN
+  // 2. KENNZAHLEN (HERO-ÜBERSICHT)
   // -------------------------------------------------------------------
   generalInfo: {
-    title: "Südkoreas Transformation in Kennzahlen",
-    subtitle: "Vom kriegszerstörten Agrarland zur führenden Industrienation (1960 bis heute)",
+    title: "Südkoreas Transformation in Zahlen",
+    subtitle: "Vom kriegszerstörten Agrarland zur Hightech-Macht (1960 bis heute)",
     meta: [
-      { label: "BIP pro Kopf 1960/61", value: "ca. 94–159 USD (1960: 159 USD; 1961: 94 USD)", sub: "Laufende USD, Weltbank (nominal unter Ghana mit 175–182 USD)" },
-      { label: "BIP pro Kopf heute", value: "ca. 36.200 USD nominal (Kaufkraft: >61.000–63.000 Intl-$)", sub: "Weltbank 2024/25 / IWF (2025: 36.227 USD nominal; 63.125 Intl-$ PPP)" },
-      { label: "Weltrang Wirtschaft & Export", value: "13. größte Volkswirtschaft & Rang 8 beim Export", sub: "BIP: Rang 13 (Weltbank, 1,87 Bio. USD); Warenexport: 709,7 Mrd. USD (2025; Rekordwert laut MOTIE / WTO Rang 8)" },
-      { label: "Sektorale Anteile (BIP)", value: "Dienstleistungen 57,2 %, Industrie 34,3 %, Agrar 1,5 %", sub: "Weltbank 2025 (Wertschöpfung); außergewöhnlich hohe Industriebasis (Dtl. 24 %)" },
-      { label: "Energie & CO2-Emissionen", value: "98 % fossiler Import | 93,7 % Importabhängigkeit | 11,3–11,4 t CO2/Kopf", sub: "US EIA / KEEI 2024; Rohölimporte 2,76 Mio. b/d (Platz 4 weltweit; OWID/Weltbank)" },
-      { label: "Demografie & Altersarmut", value: "Tiefpunkt 2023: 0,72 (2024: 0,75; 2025: 0,80) | ~40 % relative Altersarmut", sub: "Ministry of Data and Statistics / OECD Pensions at a Glance 2025 (OECD-Höchstwert)" }
+      { label: "BIP pro Kopf 1960/61", value: "ca. 94–159 USD (1960: 159 USD; 1961: 94 USD)", sub: "Laufende USD, Weltbank (nominal hinter Ghana mit 175–182 USD)" },
+      { label: "BIP pro Kopf heute", value: "ca. 36.200 USD nominal (Kaufkraft: >61.000–63.000 Intl-$)", sub: "Weltbank 2024/25 / IWF (2025: 36.227 USD nominal; 63.125 Intl-$ KKP)" },
+      { label: "Weltrang Wirtschaft & Export", value: "13. größte Volkswirtschaft & Rang 8 beim Export", sub: "BIP: Rang 13 (Weltbank, 1,87 Bio. USD); Warenexport: 709,7 Mrd. USD (MOTIE 2025; WTO Rang 8)" },
+      { label: "Sektorale Anteile (BIP)", value: "Dienstleistungen 57,2 %, Industrie 34,3 %, Agrar 1,5 %", sub: "Weltbank 2025 (Wertschöpfung); ungewöhnlich starke Industriebasis (Dtl. ca. 24 %)" },
+      { label: "Energie & CO2-Emissionen", value: "98 % fossiler Import | 93,7 % Importabhängigkeit | 11,3–11,4 t CO2/Kopf", sub: "KEEI / US EIA 2024; Rohölimporte 2,76 Mio. b/d (Platz 4 weltweit; OWID/Weltbank)" },
+      { label: "Demografie & Altersarmut", value: "Tiefpunkt 2023: 0,72 (2024: 0,75; 2025: 0,80) | ~40 % relative Altersarmut", sub: "Statistics Korea / OECD Pensions at a Glance 2025 (trauriger OECD-Höchstwert)" }
     ]
   },
 
   // -------------------------------------------------------------------
-  // 3. ENTWICKLUNGSWEG (6 PHASEN)
+  // 3. ENTWICKLUNGSWEG (6 HISTORISCHE PHASEN)
   // -------------------------------------------------------------------
   timelinePhases: [
     {
       phase: "Phase 1: 1953–1961",
       title: "Nachkriegszeit und frühe Importsubstitution",
-      stateRole: "Klientelistischer Staat unter Syngman Rhee; hohe Abhängigkeit von US-Hilfsgütern.",
-      industrialPolicy: "Bodenreform 1949/50 (3-Hektar-Obergrenze); Versuch der Importsubstitution bei Grundkonsumgütern (Textilien, Mehl, Zucker); Devisenknappheit.",
-      educationPolicy: "Aufbau der Grundschulbildung (Alphabetisierungsrate stieg von 22 % im Jahr 1945 über 72 % 1960 auf knapp 88 % 1970).",
-      spatialFocus: "Flüchtlingslager in Busan; Wiederaufbau Seouls; weitgehend agrarisch geprägtes Umland.",
-      geoOutcome: "Wirtschaftliche Stagnation; Nordkorea erzielte zunächst höhere Wachstumsraten."
+      stateRole: "Schwacher, abhängiger Staat unter Syngman Rhee; hing fast komplett am Tropf von US-Hilfsgütern.",
+      industrialPolicy: "Bodenreform 1949/50 (Obergrenze 3 Hektar); Versuch, einfache Konsumgüter (Textilien, Mehl, Zucker) im Land herzustellen statt zu importieren; chronische Devisenknappheit.",
+      educationPolicy: "Aufbau von Grundschulen für alle (die Alphabetisierungsrate stieg von 22 % im Jahr 1945 über 72 % 1960 auf fast 88 % 1970).",
+      spatialFocus: "Flüchtlingslager in Busan, Zerstörung in Seoul und ansonsten fast nur traditionelle Landwirtschaft.",
+      geoOutcome: "Wirtschaftliche Stagnation; Nordkorea wuchs in diesen Jahren dank sowjetischer Hilfe zunächst schneller."
     },
     {
       phase: "Phase 2: 1962–1971",
       title: "Beginn des Entwicklungsstaates und Leichtindustrie",
-      stateRole: "Militärregierung Park Chung-hee; Einführung von Fünfjahresplänen; Verstaatlichung der Banken.",
-      industrialPolicy: "Schutz des Binnenmarktes bei gleichzeitigem Exportzwang für arbeitsintensive Leichtindustrie (Textilien, Schuhe).",
-      educationPolicy: "Verpflichtende Primarbildung, Ausbau beruflicher und technischer Schulen.",
-      spatialFocus: "Bau des Gyeongbu Expressways (Seoul–Busan); Arbeitsmigration nach Deutschland (7.936 Bergleute, 10.032 Pflegekräfte; Devisenüberweisungen erreichten fast 2 % des BIP).",
-      geoOutcome: "Verdopplung des BIP; internationale Wettbewerbsfähigkeit im Niedriglohnsegment."
+      stateRole: "Militärregierung unter Park Chung-hee; Einführung von Fünfjahresplänen; Banken wurden verstaatlicht.",
+      industrialPolicy: "Schutz des heimischen Marktes bei gleichzeitigem Zwang, einfache Leichtindustrie (Textilien, Schuhe, Perücken) auf den Weltmarkt zu exportieren.",
+      educationPolicy: "Schulpflicht durchgesetzt, gezielter Ausbau von Technik- und Berufsschulen.",
+      spatialFocus: "Bau der Gyeongbu-Autobahn (Seoul–Busan); Arbeitsmigration nach Westdeutschland (knapp 8.000 Bergleute, 10.000 Krankenschwestern; Devisen machten fast 2 % des BIP aus).",
+      geoOutcome: "Verdopplung des BIP; Südkorea wurde im weltweiten Niedriglohnsegment konkurrenzfähig."
     },
     {
       phase: "Phase 3: 1972–1979",
       title: "Schwer- und Chemieindustrie (HCI-Programm)",
-      stateRole: "Autoritäres Regime; gezielte Förderung und Steuerung ausgewählter Großkonzerne (Chaebols).",
-      industrialPolicy: "Aufbau von Stahl (POSCO in Pohang), Großwerften (Ulsan), Petrochemie und Automobilproduktion.",
-      educationPolicy: "Gründung staatlicher Forschungseinrichtungen (z.B. KAIST 1971) zur Ausbildung von Ingenieuren.",
-      spatialFocus: "Industrielle Entwicklung an der Südostküste (Pohang, Ulsan, Changwon, Busan) wegen Hafenanbindung.",
-      geoOutcome: "Überholung Nordkoreas; Etablierung einer leistungsfähigen Grundstoff- und Investitionsgüterindustrie."
+      stateRole: "Harte autoritäre Diktatur; gezielte Bevorzugung ausgewählter Großkonzerne (Chaebols) durch Vorzugskredite.",
+      industrialPolicy: "Aufbau von Großindustrie: POSCO-Stahl in Pohang, Schiffswerften in Ulsan, Petrochemie und erste eigene Autos.",
+      educationPolicy: "Gründung staatlicher Spitzeninstitute (wie KAIST 1971), um praxisnahe Ingenieure heranzubilden.",
+      spatialFocus: "Massiver Industrieausbau an der Südostküste (Pohang, Ulsan, Changwon, Busan) wegen der Tiefseehäfen.",
+      geoOutcome: "Südkorea überholt Nordkorea endgültig und baut eine eigene schlagkräftige Grundstoffindustrie auf."
     },
     {
       phase: "Phase 4: 1980–1996",
       title: "Hochtechnologie, Demokratisierung und OECD-Beitritt",
-      stateRole: "Übergang von der Militärdiktatur zur Demokratie (1987); schrittweise Marktöffnung; OECD-Beitritt 1996.",
-      industrialPolicy: "Aufstieg in der Wertschöpfungskette: Speicherchips (DRAM), Bildschirmtechnik und Konsumelektronik.",
-      educationPolicy: "Starker Anstieg der Hochschulquote; Ausbreitung privater Nachhilfeeinrichtungen (Hagwons).",
-      spatialFocus: "Entstehung von Technologie- und Forschungsclustern im Raum Gyeonggi/Suwon und Daejeon.",
-      geoOutcome: "Aufstieg zu einer führenden Exportnation; jedoch riskante Verschuldung der Chaebols."
+      stateRole: "Demokratisierung nach Bürgerprotesten 1987; schrittweise Marktöffnung und Beitritt zur OECD 1996.",
+      industrialPolicy: "Aufstieg in moderne Branchen: Speicherchips (DRAM), Bildschirme und Unterhaltungselektronik.",
+      educationPolicy: "Boom an Universitäten; Beginn des extremen Nachhilfeboomes (Hagwons).",
+      spatialFocus: "Entstehung von Tech-Clustern im Großraum Seoul/Gyeonggi (Samsung in Suwon) und Forschungszentren in Daejeon.",
+      geoOutcome: "Aufstieg zu einer führenden Exportmacht; allerdings häuften die Chaebols gefährlich hohe Schuldenberge an."
     },
     {
       phase: "Phase 5: 1997–2000",
       title: "Asienkrise und wirtschaftliche Restrukturierung",
-      stateRole: "Krise der Zahlungsbilanz; Inanspruchnahme von IWF-Krediten; Strukturreformen im Finanzsektor.",
-      industrialPolicy: "Zerschlagung hoch verschuldeter Konzerne (u.a. Daewoo); Marktbereinigung und Öffnung für Auslandskapital.",
-      educationPolicy: "Fokus auf Informationstechnologie, Digitalisierung und den Ausbau der Breitbandinfrastruktur.",
-      spatialFocus: "Modernisierung der Ballungsräume; Seoul etabliert sich als digitales Dienstleistungszentrum.",
-      geoOutcome: "Vorzeitige Rückzahlung der IWF-Kredite (2001); Umorientierung auf eine wissensbasierte Ökonomie."
+      stateRole: "Schwere Finanz- und Währungskrise; Staat musste Notkredite beim IWF aufnehmen und harte Sparauflagen schlucken.",
+      industrialPolicy: "Kein bedingungsloses Retten mehr: Zerschlagung hoch verschuldeter Riesenkonzerne (Daewoo ging mit 80 Mrd. USD Schulden pleite); Öffnung für Auslandsinvestoren.",
+      educationPolicy: "Fokus auf IT-Kompetenzen, Digitalisierung von Schulen und massiver Ausbau des schnellen Internets.",
+      spatialFocus: "Modernisierung der Metropolen; Seoul wandelte sich endgültig zum digitalen Dienstleistungszentrum.",
+      geoOutcome: "IWF-Kredite wurden 2001 vorzeitig zurückgezahlt; gelungener Umbau zu einer modernen Wissensökonomie."
     },
     {
       phase: "Phase 6: 2000 bis heute",
-      title: "Globale Digitalökonomie, Halbleiter und Demografiekrise",
-      stateRole: "Demokratischer Staat mit F&E-Quote von 5,13 % des BIP (OECD 2024; weltweit Rang 2 hinter Israel).",
-      industrialPolicy: "Weltmarktführerschaft bei Speicherchips, Batteriezellen und Spezialschiffen; Halbleiter machen 20,8 % bis 24,4 % der Exporte aus.",
-      educationPolicy: "Spitzenplatzierungen in PISA-Studien, aber ausgeprägter Prüfungsstress und hohe Nachhilfekosten.",
-      spatialFocus: "Zunehmende Konzentration im Großraum Sudogwon (50,0–50,5 % der Bevölkerung); Entvölkerung ländlicher Kreise.",
-      geoOutcome: "Verwundbarkeit in globalen Lieferketten (Konflikt USA–China); Belastung durch historischen Fertilitätstiefstand (0,72 im Jahr 2023; 2024/25: 0,75–0,80)."
+      title: "Digitale Weltwirtschaft, Halbleiter und Demografiedruck",
+      stateRole: "Stabile Demokratie; Rekordinvestitionen in die Zukunft (F&E-Quote von 5,13 % des BIP; Rang 2 weltweit hinter Israel).",
+      industrialPolicy: "Weltmarktführer bei Speicherchips, Batteriezellen und Spezialschiffen; Halbleiter machen rund 20,8 % bis 24,4 % aller Exporte aus.",
+      educationPolicy: "Top-Noten bei PISA-Tests, aber erkauft durch enormen Prüfungsstress und teure private Nachhilfe.",
+      spatialFocus: "Krasse Ballung in Sudogwon (über 50 % der Bevölkerung auf 12 % der Fläche); ländliche Kreise schrumpfen massiv.",
+      geoOutcome: "Starke Verwundbarkeit im Streit zwischen USA und China; schwerer Druck durch die weltweit niedrigste Geburtenrate (Tiefpunkt 0,72 im Jahr 2023; 2024/25: 0,75–0,80)."
     }
   ],
 
   // -------------------------------------------------------------------
-  // 4. RAUM- UND PROBLEMANALYSE (MIT KONKRETEN DATEN & MATERIALIEN)
+  // 4. RAUM- UND PROBLEMANALYSE (SCHÜLER-TON, ECHTE DATEN)
   // -------------------------------------------------------------------
   raumAnalyse: {
     disparitaeten: {
       titel: "Regionale Disparitäten: Ballungsraum Sudogwon vs. ländliche Peripherie",
-      erklaerung: "Südkorea weist ein extremes räumliches Zentrums-Peripherie-Gefälle auf. Die historische Bevorzugung der Gyeongbu-Entwicklungsachse (Seoul–Busan) führte zu einer bis heute anhaltenden Hyperkonzentration im Nordwesten bei gleichzeitiger Marginalisierung ländlicher Regionen, insbesondere im Südwesten (Cholla-Provinzen):",
+      erklaerung: "Südkorea hat ein extremes räumliches Ungleichgewicht. Weil die Politik jahrzehntelang vor allem die Gyeongbu-Achse zwischen Seoul und Busan gefördert hat, hockt heute die halbe Nation im Großraum Sudogwon, während ländliche Gebiete – vor allem im Südwesten (Cholla-Provinzen) – abgehängt wurden:",
       fakten: [
-        { label: "Flächen- und Bevölkerungsanteil Sudogwon", value: "50,0–50,5 % der Gesamtbevölkerung (ca. 26,0–26,1 Mio.) leben auf ca. 11,8–12 % der Landesfläche (2020: 50,002 %; KOSIS Census)" },
-        { label: "Konzernzentralen der führenden Unternehmen", value: "77 % der Top-500-Konzerne (385 von 500) und 70 % der Top 1.000 börsennotierten Firmen sitzen in Sudogwon (JoongAng / Aju Press)" },
-        { label: "Wagniskapital & Start-ups", value: "Über 70 % aller Startup-Investitionen und FuE-Zentren im Großraum Seoul gebündelt" },
-        { label: "Die Cholla-Peripherie (Südwesten)", value: "Historisch vernachlässigte Agrarregion; unter Park Chung-hee zugunsten der Gyeongbu-Achse benachteiligt" },
-        { label: "Dezentralisierungsversuch Sejong City", value: "2012 als ministerielle Planstadt gegründet; vollständiger Hauptstadteinzug 2004 vom Verfassungsgericht gestoppt" }
+        { label: "Bevölkerung auf engstem Raum", value: "Über 50 % der Bevölkerung (rund 26 Mio. Menschen) leben auf nur knapp 12 % der Landesfläche im Großraum Seoul/Incheon/Gyeonggi (KOSIS Census)" },
+        { label: "Macht der Konzerne", value: "77 % der Top-500-Konzerne (385 von 500) und 70 % der 1.000 größten Firmen haben ihre Zentrale in Sudogwon (Aju Press)" },
+        { label: "Start-ups und Wagniskapital", value: "Über 70 % aller Investitionsgelder und Tech-Labore konzentrieren sich im Großraum Seoul" },
+        { label: "Die Cholla-Peripherie (Südwesten)", value: "Wurde früher politisch vernachlässigt; leidet heute unter Abwanderung junger Menschen und Überalterung" },
+        { label: "Versuch mit Sejong City", value: "Als ministerielle Planstadt gegründet, um Seoul zu entlasten; wird bisher aber vor allem als Pendlerstadt genutzt" }
       ],
-      konsequenzen: "Geographische Folgen: Extrem teure Mieten und Immobilienpreise in Seoul (besonders im Stadtteil Gangnam), harter Wettbewerb um Plätze an den drei Eliteuniversitäten („SKY“) und Sejong City als Pendlerstadt ohne echte Entlastung. Dies ist einer der Hauptgründe für den historischen Einbruch der Geburtenrate auf 0,72 (2023; Seoul: 0,55) mit bisher nur leichter Erholung 2024/25 auf 0,75 bzw. 0,80 (Seoul: 0,63)."
+      konsequenzen: "Was das bedeutet: In Seoul explodieren die Mieten und Wohnungspreise (besonders im Stadtteil Gangnam), und der Konkurrenzkampf um Plätze an den drei Elite-Unis („SKY“) ist extrem hart. Gleichzeitig sterben ländliche Dörfer aus. Das ist auch einer der Hauptgründe für den Einbruch der Geburtenrate auf 0,72 (2023) mit bisher nur leichter Erholung auf 0,75–0,80 (Seoul: 0,63) – eine eigene Wohnung und Kinder sind für viele junge Leute schlicht unbezahlbar geworden."
     },
     wertschöpfungsketten: {
-      titel: "Globale Wertschöpfungsketten (GVC) & Halbleiter-Geopolitik",
-      erklaerung: "Südkorea hat sich von einer einfachen verlängerten Werkbank zu einem unverzichtbaren Knotenpunkt der weltweiten High-Tech-Industrie entwickelt, sitzt heute aber in einer Zwickmühle zwischen den USA und China:",
+      titel: "Globale Wertschöpfungsketten: Unverzichtbar, aber im Zangengriff",
+      erklaerung: "Südkorea hat sich von der billigen Werkbank zum unverzichtbaren Herzstück der weltweiten Hightech-Industrie hochgearbeitet. Doch genau das bringt das Land heute in eine Zwickmühle zwischen den USA und China:",
       fakten: [
-        { label: "Weltmarktanteil bei DRAM-Speichern", value: "Samsung Electronics & SK Hynix halten gemeinsam über 70 % des Weltmarktes" },
-        { label: "KI-High Bandwidth Memory (HBM)", value: "Weltmarktführung bei HBM3e/HBM4-Speicherchips für moderne KI-Prozessoren" },
-        { label: "Exportgewicht von Halbleitern", value: "20,8 % (2024: 141,9 Mrd. USD) bis 24,4 % (2025: 173,4 Mrd. USD) der Gesamtexporte (MOTIE)" },
-        { label: "Vorprodukt-Abhängigkeit", value: "EUV-Lithographie-Systeme aus den Niederlanden (ASML) sowie Speziallacke und Wafer aus Japan" },
-        { label: "Handelspartner & US-CHIPS-Act", value: "Exporte 2024: China 19,5 % (133 Mrd. USD), USA 18,8 % (127,8 Mrd. USD) – die USA haben China fast eingeholt (MOTIE)" }
+        { label: "DRAM-Speicherchips", value: "Samsung und SK Hynix kontrollieren gemeinsam über 70 % des weltweiten Marktes" },
+        { label: "KI-Hochleistungsspeicher (HBM)", value: "Weltweit führend bei Speichern für moderne KI-Server (z. B. für Nvidia-Chips)" },
+        { label: "Exportgewicht von Halbleitern", value: "Chips machen 20,8 % bis 24,4 % aller südkoreanischen Exporte aus (MOTIE; 2025: 709,7 Mrd. USD Gesamtexporte)" },
+        { label: "Abhängigkeit von Zulieferern", value: "High-Tech-Maschinen kommen von ASML aus den Niederlanden, Spezialchemikalien und Wafer aus Japan" },
+        { label: "Handelspartner USA und China", value: "China nimmt 19,5 % der Exporte ab, die USA liegen mit 18,8 % fast gleichauf (MOTIE 2024/25)" }
       ],
-      konsequenzen: "Geographische Konsequenzen: Südkorea ist stark verwundbar gegenüber Handelskonflikten. Verschärfte US-Technologiesanktionen gegen Peking treffen direkt die großen Fabriken koreanischer Chiphersteller in China (Samsung in Xi'an, SK Hynix in Wuxi)."
+      konsequenzen: "Was das bedeutet: Südkorea steckt geopolitisch in der Klemme. Die USA sind der wichtigste militärische Partner und kontrollieren Chip-Technologien (US CHIPS Act). China wiederum ist der größte Absatzmarkt und Standort riesiger koreanischer Chip-Fabriken (z. B. Samsung in Xi'an). Verschärft Washington die Sanktionen gegen Peking, sitzt Südkorea sofort zwischen den Stühlen."
     },
     inselLage: {
-      titel: "Verkehrsgeographische Insellage und maritime Engpässe",
-      erklaerung: "Obwohl Südkorea auf einer Halbinsel liegt, schneidet die abgeriegelte DMZ nach Nordkorea das Land vollständig vom Schienen- und Straßennetz Asiens ab. Es existiert keinerlei Landtransit:",
+      titel: "Verkehrsgeographische Insellage und maritime Nadelöhre",
+      erklaerung: "Auf der Karte ist Südkorea eine Halbinsel – wirtschaftlich und logistisch ist es aber eine echte Insel. Durch die hermetisch abgeriegelte DMZ nach Nordkorea gibt es keinerlei Güterverkehr über Land nach Asien oder Europa:",
       fakten: [
-        { label: "Seewegsanteil am Außenhandel", value: "99,7 % des Außenhandels-Transportvolumens nach Gewicht über Seehäfen abgewickelt (Lee 2024)" },
-        { label: "Containerhafen Busan", value: "Rang 7 weltweit (Lloyd's List 2026; 2025: rund 24,9 Mio. TEU Umschlag)" },
-        { label: "Luftfrachtdrehkreuz Incheon", value: "Wichtiges internationales Drehkreuz für hochwertige Elektronik und E-Commerce" },
-        { label: "Chokepoint Straße von Malakka", value: "Über 90 % der Rohölimporte passieren diese schmale Meerenge in Südostasien" }
+        { label: "Seehandel als Lebensader", value: "99,7 % des gesamten Außenhandels-Gewichts werden über Schiffe und Häfen abgewickelt (Lee 2024)" },
+        { label: "Megahafen Busan", value: "Rang 7 weltweit (Lloyd's List 2026; 2025: rund 24,9 Mio. Standardcontainer / TEU)" },
+        { label: "Drehkreuz Incheon", value: "Einer der weltgrößten Frachtflughäfen für teure Elektronik und Express-Lieferungen" },
+        { label: "Nadelöhr Straße von Malakka", value: "Über 90 % der Rohölimporte müssen durch diese schmale Meerenge in Südostasien transportiert werden" }
       ],
-      konsequenzen: "Geographische Konsequenzen: Südkorea ist existenziell auf freie Seewege angewiesen. Spannungen im Südchinesischen Meer oder in der Taiwan-Straße bedrohen direkt die Energieversorgung und den gesamten Export."
+      konsequenzen: "Was das bedeutet: Südkorea ist komplett darauf angewiesen, dass die Seewege offen bleiben. Sollte es im Südchinesischen Meer, in der Straße von Taiwan oder an der Meerenge von Malakka zu Blockaden kommen, droht der südkoreanischen Industrie binnen weniger Wochen der Stillstand."
     },
     rohstoffFalle: {
-      titel: "Ressourcenarmut und das industrielle Veredelungsmodell",
-      erklaerung: "Südkorea besitzt praktisch keine eigenen abbauwürdigen Lagerstätten von Erdöl, Gas oder Erzen. Das Erfolgsmodell beruht auf Veredelung: Rohstoffe importieren, zu hochwertigen Industriegütern verarbeiten und wieder exportieren:",
+      titel: "Rohstoffarmut und das Veredelungsmodell",
+      erklaerung: "Südkorea besitzt fast keine eigenen Bodenschätze – weder Erdöl noch Erdgas oder nennenswerte Erze. Der Reichtum entstand daher durch ein Veredelungsmodell: Rohstoffe einkaufen, mit Hightech und Fachwissen verarbeiten und teuer exportieren:",
       fakten: [
-        { label: "Fossile Energieimporte", value: "Fossile Brennstoffe werden zu knapp 98 % importiert (EIA); gesamte Energieimportabhängigkeit liegt bei 93,7 % (KEEI)" },
-        { label: "Globaler Erdölimport", value: "ca. 2,76 Mio. Barrel täglich (2024; weltweit Platz 4 der Rohölimporteure)" },
-        { label: "Kohle- und LNG-Importe", value: "Einer der weltweit größten Importeure von Kraftwerkskohle und Flüssiggas (LNG)" },
-        { label: "Veredelungszentren an der Küste", value: "Petrochemie in Yeosu, Stahlproduktion in Pohang (POSCO), Schiffbau in Ulsan (Hyundai)" }
+        { label: "Fossile Energieimporte", value: "Fossile Brennstoffe werden zu knapp 98 % importiert (EIA); gesamte Energieimportabhängigkeit bei 93,7 % (KEEI)" },
+        { label: "Rohölimporte weltweit", value: "Rund 2,76 Mio. Barrel Rohöl pro Tag (weltweit Platz 4 der größten Ölimporteure)" },
+        { label: "Großabnehmer von Kohle & LNG", value: "Gehört weltweit zu den größten Importeuren von Flüssigerdgas und Kraftwerkskohle" },
+        { label: "Schwerindustrie an den Küsten", value: "Stahlwerke in Pohang (POSCO), Megawerften in Ulsan (Hyundai), Petrochemie in Yeosu" }
       ],
-      konsequenzen: "Geographische Konsequenzen: Hohe Anfälligkeit für weltweite Rohstoffpreisschocks. Zugleich verursacht die energieintensive Schwerindustrie Pro-Kopf-Emissionen von ca. 11,3–11,4 t CO2 pro Jahr (Weltbank 2024), was den Kohleausstieg extrem schwierig macht."
+      konsequenzen: "Was das bedeutet: Das Land reagiert extrem empfindlich auf Preisschocks bei Öl oder Gas auf den Weltmärkten. Außerdem pustet die energiehungrige Schwerindustrie pro Kopf rund 11,3 bis 11,4 Tonnen CO2 in die Luft (Weltbank 2024) – das macht die Umstellung auf Klimaneutralität zu einer echten Mammutaufgabe."
     }
   },
 
@@ -188,19 +190,19 @@ const KOREA_DATA = {
       sektor: "Primärer Sektor (Landwirtschaft, Forstwirtschaft, Fischerei)",
       anteil1960: "ca. 65 % der Beschäftigten / ca. 40 % des BIP",
       anteilHeute: "ca. 4,8 % der Beschäftigten / 1,5 % des BIP (Weltbank 2025)",
-      analyse: "Die frühe Bodenreform (1949/50) begrenzte den Landbesitz auf maximal drei Hektar, wodurch rund 1,5 Millionen Kleinbauern (rund 70 % aller Landwirte) zu selbstständigen Eigentümern wurden. Heute sichert der Genossenschaftsverband Nonghyup (rund 2,0 Mio. Mitglieder in 1.104 Genossenschaften mit eigener Sparbank) die bäuerliche Existenz ab."
+      analyse: "Die Bodenreform 1949/50 mit maximal 3 Hektar Landbesitz machte aus abhängigen Pächtern eigenständige Bauern (rund 70 % aller Landwirte). Nach der Abwanderung in die Industriestädte schützt heute der Genossenschaftsverband Nonghyup (mit 2 Mio. Mitgliedern und eigener Sparbank) den Reisanbau vor Verarmung und Spekulation."
     },
     {
       sektor: "Sekundärer Sektor (Industrie, Bau, verarbeitendes Gewerbe)",
       anteil1960: "unter 10 % der Beschäftigten / ca. 15 % des BIP",
       anteilHeute: "ca. 24,5 % der Beschäftigten / 34,3 % des BIP (Weltbank 2025)",
-      analyse: "Im Gegensatz zu den meisten westlichen Staaten behält Südkorea eine sehr starke Industriebasis (34,3 % des BIP; Deutschland ca. 24 %, USA ca. 18 %). Die Produktion wanderte schrittweise von einfacher Kleidung über Werften und Stahl hin zu Halbleitern, Autos und Batterien."
+      analyse: "Ganz anders als westliche Länder hat Südkorea seine Industrie nicht ins Ausland abgeschoben, sondern mit 34,3 % am BIP extrem stark gehalten (Deutschland: ca. 24 %). Der Staat hat die Firmen schrittweise von billiger Kleidung über Stahl und Schiffe hin zu Chips und E-Autos aufgerüstet."
     },
     {
       sektor: "Tertiärer Sektor (Dienstleistungen, Handel, IT, Finanzen)",
       anteil1960: "ca. 25 % der Beschäftigten / ca. 45 % des BIP",
-      anteilHeute: "ca. 70,7 % der Beschäftigten / 57,2 % des BIP (Weltbank 2025; vor Nettoproduktsteuern)",
-      analyse: "Sehr stark in Forschung und Entwicklung (F&E-Quote bei 5,13 % des BIP; Rang 2 weltweit hinter Israel), Telekommunikation, Hafenlogistik und Kulturwirtschaft (K-Pop, Serien und Filme als weltweiter Wirtschaftsfaktor)."
+      anteilHeute: "ca. 70,7 % der Beschäftigten / 57,2 % des BIP (Weltbank 2025)",
+      analyse: "Dienstleistungen machen heute den größten Teil aus: Nicht nur Banken und Hafenlogistik, sondern vor allem Forschung und Entwicklung (mit 5,13 % des BIP weltweit Platz 2) und die globale Kulturindustrie (K-Pop, K-Dramen, Gaming)."
     }
   ],
 
@@ -211,65 +213,65 @@ const KOREA_DATA = {
     leitfrage: "Inwiefern ist Südkoreas Entwicklungsmodell auf Staaten des Globalen Südens übertragbar?",
     proTransfer: [
       {
-        kriterium: "Bodenreform als Entwicklungsgrundlage",
+        kriterium: "Bodenreform als Fundament",
         bewertung: "Übertragbar",
-        begruendung: "Vor Beginn der Industrialisierung löste Südkorea den Großgrundbesitz auf (3-Hektar-Obergrenze). Rund 1,5 Millionen Kleinbauern wurden zu Eigentümern. Das steigerte die Erträge, verhinderte frühes Slumwachstum in den Städten und schuf Kaufkraft auf dem Land – eine Voraussetzung, die vielen Entwicklungsländern bis heute fehlt."
+        begruendung: "Bevor die ersten Fabriken gebaut wurden, zerschlug Südkorea den Großgrundbesitz (3-Hektar-Grenze). Rund 1,5 Millionen Bauern bekamen eigenes Land. Das sicherte das Überleben auf dem Land, verhinderte Elends-Slums in den Großstädten und schuf eine breite Schicht, die Waren kaufen konnte – genau das fehlt vielen Entwicklungsländern bis heute."
       },
       {
-        kriterium: "Priorität von technischer Bildung (MINT)",
+        kriterium: "Bildung vor Rohstoffausbeutung",
         bewertung: "Übertragbar",
-        begruendung: "Südkorea investierte in Grund- und Berufsbildung, als das Geld extrem knapp war: Die Alphabetisierungsrate stieg von 22 % (1945) über 72 % (1960) auf fast 90 % (1970). Rohstoffmangel wurde durch Fachkräfte ausgeglichen. Länder, die nur Rohstoffe exportieren statt Menschen auszubilden, bleiben oft im Rohstofffluch stecken."
+        begruendung: "Südkorea hat schon in Schulen investiert, als das Land noch bettelarm war (Alphabetisierung stieg von 22 % auf fast 90 %). Wer keine Bodenschätze hat, muss in Köpfe investieren. Länder, die nur Rohstoffe ausbuddeln und exportieren, bleiben dagegen fast immer im Ressourcenfluch stecken."
       },
       {
-        kriterium: "Genossenschaften für Kleinbauern (Nonghyup)",
+        kriterium: "Starke Genossenschaften (Nonghyup)",
         bewertung: "Übertragbar",
-        begruendung: "Die Saemaeul-Dorfbewegung und der Verband Nonghyup (mit rund 2 Mio. Mitgliedern und eigener Sparbank) schützten Kleinbauern vor Überschuldung durch private Geldverleiher. Solche genossenschaftlichen Banken sind auch für heutige Entwicklungsländer ein wirksamer Schutz vor Verarmung."
+        begruendung: "Der Verband Nonghyup schützte Kleinbauern mit fairen Krediten vor privaten Geldhaien. Solche Genossenschaftsbanken sind auch für heutige Entwicklungsländer ein genialer Hebel, um Bauern auf dem Land vor Verarmung zu schützen."
       },
       {
-        kriterium: "Gezielte Verwendung von Auslandsdevisen",
+        kriterium: "Devisen in Maschinen statt Luxus stecken",
         bewertung: "Übertragbar",
-        begruendung: "Die Rücküberweisungen koreanischer Gastarbeiter (wie Bergleute und Pflegekräfte in Deutschland) flossen damals nicht in reinen Konsum, sondern über staatliche Kanäle gezielt in Fabrikmaschinen und wichtige Infrastruktur."
+        begruendung: "Das Geld, das Gastarbeiter (wie die Bergleute und Krankenschwestern in Deutschland) nach Hause schickten, wurde nicht für Luxusgüter verpulvert, sondern vom Staat gezielt für den Kauf moderner Fabrikmaschinen und Straßen eingesetzt."
       }
     ],
     contraTransfer: [
       {
-        kriterium: "WTO-Regeln begrenzen historische Industriepolitik",
-        bewertung: "Rechtliche Einschränkung",
-        begruendung: "Heutige WTO-Regeln setzen der damaligen Förderpolitik enge Grenzen. Verboten sind vor allem exportabhängige Subventionen (Art. 3 SCM) und bestimmte Auflagen, die heimische statt importierte Waren vorschreiben (TRIMs Art. 2, Local-Content-Klauseln). Zölle sind nicht komplett verboten, aber durch vereinbarte Obergrenzen gebunden. Staatliche Industriepolitik bleibt zwar möglich und für Entwicklungsländer gibt es Übergangsfristen, der rechtliche Spielraum ist heute aber viel enger als in den 1960er Jahren."
+        kriterium: "Heutige WTO-Regeln verbieten damalige Tricks",
+        bewertung: "Rechtlich unmöglich",
+        begruendung: "Südkoreas damalige Tricks sind heute international verboten. Die Welthandelsorganisation (WTO) untersagt direkte Exportsubventionen und verbietet es Staaten, ausländischen Firmen vorzuschreiben, dass sie einheimische Bauteile verbauen müssen. Schutzzölle sind heute an feste Obergrenzen gebunden. Entwicklungsländer haben heute viel engere rechtliche Grenzen als Südkorea in den 60ern."
       },
       {
-        kriterium: "Fehlen des geopolitischen Sonderstatus",
+        kriterium: "Kein geopolitischer Freifahrtschein mehr",
         bewertung: "Historischer Sonderfall",
-        begruendung: "Als wichtiger antikommunistischer Bündnispartner im Kalten Krieg erhielt Seoul Milliardenhilfen der USA. Washington duldete koreanische Schutzzölle und öffnete gleichzeitig den US-Markt für koreanische Waren. Ein solcher Sonderstatus existiert für heutige Entwicklungsländer in der Regel nicht."
+        begruendung: "Seoul bekam im Kalten Krieg als antikommunistischer Vorposten Milliarden an US-Geldern und durfte zollfrei in die USA liefern, während es den eigenen Markt dichtmachte. Heutige Entwicklungsländer bekommen diesen roten Teppich nirgendwo ausgerollt."
       },
       {
-        kriterium: "Ablehnung autoritärer Zwangsmaßnahmen",
-        bewertung: "Ethisch nicht vertretbar",
-        begruendung: "Der Aufstieg geschah unter Militärdiktaturen mit Streikverboten, 70-Stunden-Wochen und teils brutaler Niederschlagung von Bürgerprotesten (Gwangju-Aufstand 1980). Ein solches Modell widerspricht grundlegenden Menschenrechten und demokratischen Werten."
+        kriterium: "Diktatur und Zwang dürfen kein Vorbild sein",
+        bewertung: "Ethisch abzulehnen",
+        begruendung: "Der Aufstieg wurde mit eiserner Hand erzwungen: Streikverbote, 70-Stunden-Wochen und brutale Polizeigewalt (wie beim Gwangju-Aufstand 1980). Ein System, das Menschenrechte mit Füßen tritt, darf für niemanden ein Entwicklungsziel sein."
       },
       {
-        kriterium: "Übermächtige Konkurrenz bestehender Industriezentren",
-        bewertung: "Hohe Markteintrittsbarriere",
-        begruendung: "In den 1960er und 70er Jahren waren die Weltmärkte offen für neue Hersteller. Heute dominieren etablierte Produktionsriesen wie China, Vietnam und Indien mit riesigen Fabriken und fertigen Lieferketten, was es neuen Ländern extrem schwer macht, im verarbeitenden Gewerbe Fuß zu fassen."
+        kriterium: "Etablierte Konkurrenten wie China besetzen den Markt",
+        bewertung: "Kaum Marktlücken",
+        begruendung: "In den 60er Jahren war auf dem Weltmarkt noch Platz für billige Fabriken. Heute dominieren Giganten wie China oder Vietnam mit gigantischen Werken und unschlagbar günstigen Lieferketten. Da kommt ein armes Land heute kaum noch dazwischen."
       },
       {
-        kriterium: "Schwere soziale und demografische Spätfolgen",
-        bewertung: "Mangelnde Nachhaltigkeit",
-        begruendung: "Das Modell erzeugte einen extremen Geburteneinbruch (Tiefpunkt 0,72 im Jahr 2023; 2024/25: 0,75–0,80), rund 40 % relative Altersarmut bei Senioren (OECD 2025; NPRI: 39,7 %) und die höchste Suizidrate der OECD (altersstandardisiert 24,8 je 100.000). Ein System, das seine eigene Bevölkerung derart verschleißt, taugt nicht als zukunftsfähiges Vorbild."
+        kriterium: "Demografische Sackgasse und soziale Kälte",
+        bewertung: "Nicht nachhaltig",
+        begruendung: "Das Modell hat die Gesellschaft völlig ausgebrannt: Die Geburtenrate ist weltweit die niedrigste (Tiefstand 0,72 im Jahr 2023; heute nur 0,75–0,80), rund 40 % der Senioren leben in Armut, und die Suizidrate ist traurige OECD-Spitze. Ein System, an dem die eigene Jugend zerbricht, taugt nicht als Vorbild."
       }
     ],
     fallvergleich: [
       {
         land: "Vietnam",
-        situation: "Wendet mit der Doi-Moi-Politik Elemente des Entwicklungsstaates an (Exportzonen, staatliche Steuerung). Stößt jedoch an WTO-Grenzen und fungiert überwiegend als verlängerte Werkbank ohne eigene globale Technologiekonzerne."
+        situation: "Versucht mit staatlich gelenkten Exportzonen etwas Ähnliches wie Südkorea. Bleibt aber bisher überwiegend eine verlängerte Werkbank für ausländische Konzerne, ohne eigene Weltmarktführer wie Samsung hervorzubringen."
       },
       {
         land: "Ruanda",
-        situation: "Setzt auf staatlich gelenkte Modernisierung, Korruptionsbekämpfung und Digitalisierung. Hat jedoch als Binnenstaat ohne Zugang zu Seehäfen und mit kleinem Binnenmarkt erhebliche logistische Nachteile gegenüber Südkorea."
+        situation: "Setzt auf digitale Verwaltung, Bildung und Disziplin. Hat aber als Binnenstaat mitten in Afrika ohne Seehäfen und mit kleinem Markt riesige Standortnachteile gegenüber dem Küstenland Südkorea."
       },
       {
         land: "Ghana",
-        situation: "Verfügt über Rohstoffe (Kakao, Gold, Öl), leidet aber unter Wertschöpfungsverlusten im Rohstoffexport. Südkoreas Weg belegt: Nachhaltiger Wohlstand entsteht erst durch Weiterverarbeitung und industrielle Veredelung im eigenen Land."
+        situation: "Startete 1960 mit höherem Pro-Kopf-Einkommen als Südkorea, blieb aber beim Export von Rohstoffen (Kakao, Gold, Öl) hängen. Südkorea zeigt: Wahrer Wohlstand entsteht nicht durch das Ausbuddeln von Rohstoffen, sondern durch die Weiterverarbeitung im eigenen Land."
       }
     ]
   },
@@ -454,7 +456,7 @@ const KOREA_DATA = {
   ],
 
   // -------------------------------------------------------------------
-  // 8. BASISKONZEPTE (KCGO)
+  // 8. BASISKONZEPTE (KCGO HESSEN)
   // -------------------------------------------------------------------
   basisKonzepte: [
     {
@@ -534,7 +536,7 @@ const KOREA_DATA = {
   },
 
   // -------------------------------------------------------------------
-  // 10. FACHBEGRIFFE
+  // 10. FACHBEGRIFFE (FLASHCARDS FÜR DAS ABITUR)
   // -------------------------------------------------------------------
   flashcards: [
     {
@@ -674,7 +676,7 @@ const KOREA_DATA = {
   ],
 
   // -------------------------------------------------------------------
-  // 12. MATERIALIEN & QUELLEN
+  // 12. MATERIALIEN & QUELLEN (MIT DIREKTEN WEBLINKS)
   // -------------------------------------------------------------------
   materialSammlung: [
     {
@@ -697,7 +699,7 @@ const KOREA_DATA = {
       kategorie: "Wirtschafts- und Außenhandelsdaten",
       titel: "Ministry of Trade, Industry and Energy (MOTIE) & GTAI: Handelsbilanz Republik Korea",
       autor: "MOTIE Südkorea / GTAI Außenwirtschaftsagentur (Daten 2024/2025)",
-      datengehalt: "Außenhandelsquote von 84,6 % (2024) bis 86,4 % (2025); Gesamtexporte von 683,8 Mrd. USD (2024) und 709 Mrd. USD (2025; WTO-Rang 8); Halbleiter-Exportanteil von 20,8 % (2024) bis 24,4 % (2025); bilaterale Exportanteile: China 19,5 % (133 Mrd. USD), USA 18,8 % (127,8 Mrd. USD) – USA fast gleichauf; Rohölimporte von 2,76 Mio. Barrel täglich (weltweit Top 4).",
+      datengehalt: "Außenhandelsquote von 84,6 % (2024) bis 86,4 % (2025); Gesamtexporte von 683,8 Mrd. USD (2024) und 709,7 Mrd. USD (2025; WTO-Rang 8); Halbleiter-Exportanteil von 20,8 % (2024) bis 24,4 % (2025); bilaterale Exportanteile: China 19,5 % (133 Mrd. USD), USA 18,8 % (127,8 Mrd. USD) – USA fast gleichauf; Rohölimporte von 2,76 Mio. Barrel täglich (weltweit Top 4).",
       analysebeitrag: "Belegt die enorme Weltmarktexposition, die einseitige Abhängigkeit von der Halbleiterindustrie und die geopolitische Sandwich-Position Südkoreas zwischen dem US-Sicherheitsbündnis und dem chinesischen Absatzmarkt.",
       link: "https://www.gtai.de/de/trade/suedkorea"
     },
