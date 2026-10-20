@@ -83,7 +83,11 @@ function initTopTabs() {
 
   function setActiveTab(tabId) {
     tabButtons.forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.tab === tabId);
+      const isActive = btn.dataset.tab === tabId;
+      btn.classList.toggle("active", isActive);
+      if (isActive && window.innerWidth <= 768) {
+        btn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      }
     });
   }
 
@@ -320,6 +324,10 @@ function initStations() {
         activeStationId = btn.dataset.stationId;
         renderNav();
         renderActiveStation();
+        if (window.innerWidth <= 768) {
+          const activeBtn = tabsContainer.querySelector(`.station-pill-btn[data-station-id="${activeStationId}"]`);
+          if (activeBtn) activeBtn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+        }
       });
     });
   }

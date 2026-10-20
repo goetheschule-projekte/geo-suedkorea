@@ -31,27 +31,27 @@ const KOREA_DATA = {
     paragraphs: [
       {
         heading: "1. Ausgangslage und Bodenreform (1953–1960)",
-        text: "Nach dem Koreakrieg 1953 war Südkorea wirtschaftlich stark geschwächt. Das Pro-Kopf-BIP lag 1960 bei etwa 159 US-Dollar und 1961 bei nur rund 94 US-Dollar. Damit lag Südkorea damals sogar hinter Ghana. Ein Grund für die schwierige Ausgangslage war die japanische Kolonialzeit: Ein großer Teil der Schwerindustrie und viele Wasserkraftwerke lagen im Norden, während der Süden stärker landwirtschaftlich geprägt war. Durch die Grenze zu Nordkorea ist Südkorea außerdem auf Verkehrswege über das Meer angewiesen. Auch heute muss das Land den Großteil seiner fossilen Energieträger importieren.\n\nEine wichtige Grundlage für die spätere Entwicklung war die Bodenreform von 1949/50. Sie begrenzte den Landbesitz und ermöglichte vielen Bauern, eigenes Land zu bewirtschaften. Dadurch veränderten sich die Besitzverhältnisse auf dem Land. Die Reform war zwar nicht allein für den späteren Aufstieg verantwortlich, verbesserte aber die Ausgangsbedingungen für viele Familien."
+        text: "Nach dem Koreakrieg 1953 war Südkorea wirtschaftlich stark geschwächt. Das BIP pro Kopf lag 1960 bei etwa 159 US-Dollar und 1961 sogar nur bei rund 94 US-Dollar. Damit war Südkorea damals ärmer als Ghana. Ein Grund dafür war die ungleiche Ausgangslage auf der koreanischen Halbinsel: Während sich im Norden viele Industrieanlagen und Wasserkraftwerke befanden, war der Süden stärker landwirtschaftlich geprägt. Dazu kam, dass Südkorea nur wenige eigene Rohstoffe besitzt und wegen der Grenze zu Nordkorea für den Handel mit anderen Kontinenten auf Seewege angewiesen ist.\n\nEin wichtiger Schritt war die Bodenreform von 1949/50. Sie begrenzte den Landbesitz und ermöglichte vielen Bauern, eigenes Land zu bewirtschaften. Das veränderte die Besitzverhältnisse und verbesserte die Ausgangslage für viele Familien. Der spätere wirtschaftliche Aufstieg hatte zwar noch weitere Gründe, aber die Bodenreform war ein wichtiger Teil der Entwicklung."
       },
       {
-        heading: "2. Der Staat als Motor der Industrialisierung",
-        text: "Südkoreas Aufstieg lässt sich nicht einfach mit einer freien Marktwirtschaft erklären. Der Staat griff stark in die Wirtschaft ein und bestimmte unter Park Chung-hee ab den 1960er-Jahren wichtige Entwicklungsziele. Über Fünfjahrespläne wurden bestimmte Branchen gefördert. Große Familienunternehmen wie Samsung, Hyundai und LG erhielten unter anderem günstige Kredite und Unterstützung beim Ausbau ihrer Produktion. Im Gegenzug sollten sie ihre Produkte erfolgreich ins Ausland verkaufen.\n\nDiese Strategie half Südkorea, seine Industrie auszubauen und auf dem Weltmarkt konkurrenzfähig zu werden. Gleichzeitig entstand dadurch eine starke Abhängigkeit von wenigen Großkonzernen. Auch die Überweisungen südkoreanischer Bergleute und Pflegekräfte, die in Westdeutschland arbeiteten, brachten Devisen ins Land. Ein weiterer wichtiger Faktor war der Ausbau des Bildungs- und Forschungssystems."
+        heading: "2. Wie der Staat die Wirtschaft aufbaute",
+        text: "Der Aufstieg Südkoreas war nicht einfach das Ergebnis eines freien Marktes. Ab den 1960er-Jahren lenkte der Staat die wirtschaftliche Entwicklung gezielt. In mehreren Fünfjahresplänen legte er fest, welche Bereiche besonders gefördert werden sollten. Große Familienunternehmen wie Samsung, Hyundai und LG erhielten Unterstützung und günstige Kredite. Dafür sollten sie ihre Produktion ausbauen und ihre Waren im Ausland verkaufen.\n\nSo konnte Südkorea seine Industrie Schritt für Schritt vergrößern und auf dem Weltmarkt konkurrenzfähig werden. Gleichzeitig wurde die Wirtschaft stark von einigen wenigen Großkonzernen abhängig. Auch die Überweisungen koreanischer Bergleute und Pflegekräfte, die in Westdeutschland arbeiteten, brachten Geld ins Land. Wichtig waren außerdem bessere Schulen, technische Ausbildung und Investitionen in Forschung."
       },
       {
-        heading: "3. Strukturwandel und räumliche Entwicklung",
-        text: "Südkorea entwickelte sich innerhalb weniger Jahrzehnte von einem überwiegend landwirtschaftlich geprägten Land zu einer modernen Industrienation. Zunächst waren Textilien und andere einfache Produkte wichtig. Später kamen Stahl, Schiffbau und die Automobilindustrie hinzu. Heute spielen vor allem Halbleiter und andere Hightech-Produkte eine große Rolle. Die Industrie hat deshalb weiterhin einen vergleichsweise hohen Anteil an der Wirtschaftsleistung.\n\nDie wirtschaftliche Entwicklung konzentrierte sich besonders auf die Achse zwischen Seoul und Busan sowie auf wichtige Küstenstandorte. Der Hafen von Busan ist ein bedeutender Umschlagplatz für den internationalen Handel. Diese starke Ausrichtung auf Exporte bringt allerdings auch Risiken mit sich: Südkorea ist auf funktionierende Seewege, importierte Rohstoffe und wichtige Handelspartner angewiesen. Außerdem gerät das Land zunehmend zwischen die wirtschaftlichen Interessen Chinas und die politischen und sicherheitspolitischen Interessen der USA."
+        heading: "3. Vom Agrarland zur Hightech-Wirtschaft",
+        text: "Südkorea hat sich innerhalb weniger Jahrzehnte stark verändert. Zunächst stellte das Land vor allem einfache Produkte wie Textilien her. Später wurden Stahl, Schiffe und Autos immer wichtiger. Heute gehören Halbleiter und andere technische Produkte zu den wichtigsten Exportgütern. Die Industrie spielt deshalb weiterhin eine größere Rolle als in vielen anderen Industrieländern.\n\nAllerdings hat nicht jede Region gleichermaßen von dieser Entwicklung profitiert. Viele Unternehmen und Arbeitsplätze konzentrieren sich im Großraum Seoul und entlang wichtiger Verkehrsverbindungen bis nach Busan. Der Hafen von Busan verbindet Südkorea mit dem Welthandel. Die starke Exportorientierung hat aber auch Nachteile: Das Land braucht importierte Rohstoffe, sichere Seewege und funktionierende Handelsbeziehungen. Besonders schwierig ist dabei das Verhältnis zwischen China, einem wichtigen Wirtschaftspartner, und den USA, die für Südkorea auch sicherheitspolitisch bedeutend sind."
       },
       {
-        heading: "4. Soziale und ökologische Probleme",
-        text: "Der wirtschaftliche Erfolg hat nicht alle Probleme gelöst. Südkorea hat hohe CO₂-Emissionen pro Kopf und ist stark von importierter Energie abhängig. Auch die Verteilung von Bevölkerung und Wirtschaft ist ungleich: Mehr als die Hälfte der Bevölkerung lebt im Großraum Seoul, während viele ländliche Regionen Einwohner verlieren.\n\nDazu kommen soziale Probleme. Hohe Wohnkosten und der starke Leistungsdruck in Schule und Beruf erschweren vielen jungen Menschen die Familiengründung. Die Geburtenrate erreichte 2023 mit 0,72 Kindern pro Frau einen historischen Tiefstand und stieg danach leicht an. Gleichzeitig ist die relative Altersarmut in Südkorea sehr hoch. Das zeigt, dass wirtschaftliches Wachstum allein nicht ausreicht, um den Wohlstand für alle Generationen zu sichern."
+        heading: "4. Die Schattenseiten des wirtschaftlichen Erfolgs",
+        text: "Obwohl Südkorea heute zu den wohlhabenden Industrieländern gehört, gibt es weiterhin große Probleme. Die Industrie benötigt viel Energie, von der ein großer Teil aus dem Ausland kommt. Gleichzeitig sind die CO₂-Emissionen pro Kopf hoch. Auch innerhalb des Landes gibt es deutliche Unterschiede: Mehr als die Hälfte der Bevölkerung lebt im Großraum Seoul, während viele ländliche Regionen Einwohner verlieren und immer älter werden.\n\nHinzu kommen hohe Wohnkosten und großer Leistungsdruck in Schule und Beruf. Das macht es vielen jungen Menschen schwer, eine Familie zu gründen. 2023 lag die Geburtenrate bei nur 0,72 Kindern pro Frau und stieg danach wieder etwas an. Auch die hohe Altersarmut ist ein Problem. Daran wird deutlich, dass der wirtschaftliche Aufstieg nicht automatisch für alle Menschen einen sicheren Lebensstandard bedeutet."
       },
       {
-        heading: "5. Fazit: Ist Südkorea eine Blaupause für den Globalen Süden?",
-        text: "Südkorea kann anderen Entwicklungsländern einige Anregungen geben, ist aber kein Modell, das sich einfach kopieren lässt. Der Aufstieg fand unter besonderen Bedingungen des Kalten Krieges statt. Dazu gehörten die Unterstützung durch die USA und eine internationale Wirtschaftslage, die sich von der heutigen unterscheidet. Auch die Regeln des Welthandels setzen bestimmten Maßnahmen der Industriepolitik Grenzen. Allerdings sind nicht alle staatlichen Subventionen oder Schutzzölle grundsätzlich verboten.\n\nÜbertragbar sind vor allem einzelne Ansätze: eine gerechtere Verteilung von Land, Investitionen in Bildung, der Aufbau leistungsfähiger Infrastruktur und eine gezielte Förderung von Unternehmen. Dabei müssen die jeweiligen Bedingungen eines Landes berücksichtigt werden. Südkorea zeigt sowohl, wie staatliche Planung und eine exportorientierte Industrie zum wirtschaftlichen Aufstieg beitragen können, als auch, welche sozialen und ökologischen Probleme entstehen können, wenn Wachstum zu stark im Mittelpunkt steht."
+        heading: "5. Ist Südkorea eine Blaupause für den Globalen Süden?",
+        text: "Andere Länder können einiges aus Südkoreas Entwicklung lernen. Das Modell lässt sich aber nicht einfach übernehmen. Südkorea profitierte während des Kalten Krieges von der Unterstützung der USA und von besonderen Bedingungen auf dem Weltmarkt. Außerdem gelten heute internationale Handelsregeln, die bestimmte Formen der Exportförderung einschränken. Staatliche Förderung und Schutzzölle sind allerdings nicht grundsätzlich verboten.\n\nSinnvolle Ansätze sind vor allem Investitionen in Bildung, Infrastruktur und Forschung, eine gerechtere Verteilung von Land und der Aufbau eigener Industrien. Welche Maßnahmen funktionieren, hängt aber immer von den Bedingungen im jeweiligen Land ab. Südkorea zeigt, dass eine langfristige Wirtschaftsstrategie viel bewirken kann. Gleichzeitig macht die Entwicklung deutlich, dass soziale Sicherheit und Umweltschutz nicht vernachlässigt werden dürfen."
       }
     ],
-    wordCount: 606,
-    keyTakeaway: "Mein Fazit: Südkorea ist keine Blaupause, die andere Länder einfach kopieren können. Die Entwicklung zeigt aber, wie wichtig Bildung, eine langfristige Wirtschaftsstrategie und der Aufbau eigener Industrien sein können. Gleichzeitig machen die sozialen und ökologischen Probleme deutlich, dass wirtschaftliches Wachstum allein kein ausreichendes Entwicklungsziel ist."
+    wordCount: 644,
+    keyTakeaway: "Mein Fazit: Südkorea ist keine Blaupause, die andere Länder einfach kopieren können. Das Land zeigt aber, wie wichtig Bildung, eine langfristige Planung und eigene Industrien für die wirtschaftliche Entwicklung sein können. Gleichzeitig sollte man aus den Problemen lernen, die mit diesem Wachstum entstanden sind."
   },
 
   // -------------------------------------------------------------------
@@ -95,7 +95,7 @@ const KOREA_DATA = {
     {
       phase: "Phase 3: 1972–1979",
       title: "Schwer- und Chemieindustrie (HCI-Programm)",
-      stateRole: "Autoritäres Regime; gezielte Bevorzugung großer Familienunternehmen (Chaebols) durch Vorzugskredite.",
+      stateRole: "Autoritäres Regime; gezielte Förderung und Bevorzugung großer Familienunternehmen (Chaebols) durch Vorzugskredite.",
       industrialPolicy: "Aufbau von Stahlproduktion (POSCO in Pohang), Großwerften in Ulsan, Petrochemie und ersten eigenen Fahrzeugen.",
       educationPolicy: "Gründung staatlicher Forschungseinrichtungen (wie KAIST 1971), um praxisnahe Ingenieure auszubilden.",
       spatialFocus: "Industrieausbau an der Südostküste wegen der guten Anbindung an Tiefseehäfen (Pohang, Ulsan, Busan).",
@@ -148,7 +148,7 @@ const KOREA_DATA = {
     },
     wertschöpfungsketten: {
       titel: "Globale Wertschöpfungsketten: Wichtige Rolle und neue Risiken",
-      erklaerung: "Südkorea hat sich von einem Standort für einfache und günstige Produkte zu einem wichtigen Hersteller von Hightech entwickelt. Diese Spezialisierung bringt allerdings auch Abhängigkeiten mit sich:",
+      erklaerung: "Dass Südkorea so viel exportiert, ist ein großer Vorteil. Gleichzeitig macht es das Land abhängig von anderen Staaten. Wenn wichtige Handelswege blockiert werden oder es Streit zwischen Handelspartnern gibt, kann das auch die eigene Wirtschaft treffen:",
       fakten: [
         { label: "Speicherchips (DRAM)", value: "Südkoreanische Unternehmen wie Samsung und SK Hynix gehören zu den weltweiten Marktführern bei Speicherchips" },
         { label: "Bedeutung für den Export", value: "Halbleiter machen rund ein Fünftel bis ein Viertel der gesamten südkoreanischen Exporte aus (MOTIE)" },
@@ -189,7 +189,7 @@ const KOREA_DATA = {
       sektor: "Primärer Sektor (Landwirtschaft, Forstwirtschaft, Fischerei)",
       anteil1960: "ca. 65 % der Beschäftigten / ca. 40 % des BIP",
       anteilHeute: "ca. 5 % der Beschäftigten / ca. 1,5 % des BIP (Weltbank)",
-      analyse: "Die Bodenreform von 1949/50 begrenzte den Landbesitz auf maximal 3 Hektar, sodass viele Kleinbauern eigenes Land bewirtschaften konnten. Mit der Industrialisierung wanderten viele Arbeitskräfte in die Städte ab. Heute sichert unter anderem der genossenschaftliche Bauernverband Nonghyup die landwirtschaftliche Produktion ab."
+      analyse: "Früher lebte ein großer Teil der Bevölkerung von der Landwirtschaft, heute ist das Land vor allem für seine Industrie und Technik bekannt. Die Bodenreform von 1949/50 begrenzte den Landbesitz auf maximal 3 Hektar, sodass viele Kleinbauern eigenes Land bewirtschaften konnten. Heute sichert unter anderem der genossenschaftliche Bauernverband Nonghyup die landwirtschaftliche Produktion ab."
     },
     {
       sektor: "Sekundärer Sektor (Industrie, Bau, verarbeitendes Gewerbe)",
@@ -254,9 +254,9 @@ const KOREA_DATA = {
         begruendung: "In den 1960er Jahren gab es auf den Weltmärkten mehr Spielraum für neue Anbieter einfacher Produkte. Heute dominieren etablierte Produktionsländer wie China oder Vietnam mit großen Kapazitäten und günstigen Lieferketten, was neuen Ländern den Einstieg in die Industrie erschwert."
       },
       {
-        kriterium: "Soziale und demografische Folgeprobleme",
+        kriterium: "Soziale und ökologische Folgeprobleme",
         bewertung: "Mangelnde Nachhaltigkeit",
-        begruendung: "Die sozialen Probleme zeigen, dass wirtschaftlicher Erfolg allein nicht ausreicht. Hohe relative Altersarmut (~40 %), starker Leistungsdruck und die weltweit niedrigste Geburtenrate (Tiefstand 0,72 im Jahr 2023; heute rund 0,75–0,80) machen deutlich, dass die Lebensbedingungen und die Belastung der Bevölkerung rechtzeitig berücksichtigt werden müssen."
+        begruendung: "Am Beispiel Südkoreas sieht man, dass ein reiches Land nicht automatisch alle sozialen Probleme gelöst hat. Hohe relative Altersarmut (~40 %), starker Leistungsdruck und die weltweit niedrigste Geburtenrate (Tiefstand 0,72 im Jahr 2023; heute rund 0,75–0,80) machen deutlich, dass soziale Sicherheit und Lebensbedingungen nicht vernachlässigt werden dürfen."
       }
     ],
     fallvergleich: [
