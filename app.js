@@ -151,12 +151,15 @@ function initAbstract() {
 
   const data = window.KOREA_DATA.abstract;
 
-  bodyEl.innerHTML = data.paragraphs.map(p => `
-    <div class="abstract-paragraph-box">
-      <h3 class="abstract-paragraph-title">${escapeHtml(p.heading)}</h3>
-      <p class="abstract-paragraph-text">${escapeHtml(p.text)}</p>
-    </div>
-  `).join("");
+  bodyEl.innerHTML = data.paragraphs.map(p => {
+    const paras = p.text.split(/\n\n+/).map(para => `<p class="abstract-paragraph-text">${escapeHtml(para)}</p>`).join("");
+    return `
+      <div class="abstract-paragraph-box">
+        <h3 class="abstract-paragraph-title">${escapeHtml(p.heading)}</h3>
+        ${paras}
+      </div>
+    `;
+  }).join("");
 
   if (takeawayEl && data.keyTakeaway) {
     takeawayEl.innerHTML = `<strong>${escapeHtml(data.keyTakeaway)}</strong>`;
